@@ -1,55 +1,85 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>B.S. RAO Math & Science Academy | Student Portal</title>
-<meta name="description" content="B.S. RAO Math & Science Academy Student Hall Ticket and Result Portal">
-<link rel="stylesheet" href="styles.css">
+<title>Hall Ticket & Result | BSR260007</title>
+<link rel="stylesheet" href="style.css">
+<style>
+body{font-family:Arial,sans-serif;background:#f3f5fa;margin:0;color:#16213b}
+.wrap{max-width:680px;margin:0 auto;padding:28px 18px 50px}
+.hero{text-align:center;padding:12px 8px 24px}
+.hero h1{font-size:38px;margin:0 0 12px}
+.hero p{font-size:20px;color:#697386;line-height:1.45}
+.box{background:#fff;border:1px solid #e1e5ec;border-radius:22px;padding:28px;box-shadow:0 5px 20px #00000010}
+label{display:block;font-weight:700;font-size:18px;margin:0 0 9px}
+input{width:100%;box-sizing:border-box;padding:17px 18px;border:2px solid #d2d7df;border-radius:15px;font-size:20px;margin-bottom:22px}
+button{width:100%;padding:17px;border:0;border-radius:15px;font-size:19px;font-weight:700;cursor:pointer;margin-top:2px}
+.primary{background:#111b2d;color:white}
+.secondary{background:#e8eefb;color:#284b89;margin-top:14px}
+.msg{display:none;margin-top:18px;padding:14px;border-radius:12px;font-weight:700}
+.error{background:#ffebee;color:#b71c1c}
+.ok{background:#e8f5e9;color:#1b5e20}
+.demo{margin-top:28px;text-align:center;color:#89919f}
+.links{margin-top:22px;display:grid;gap:16px}
+.linkcard{background:#fff;border:1px solid #e1e5ec;border-radius:18px;padding:20px}
+.linkcard h3{margin:0 0 8px;font-size:22px}.linkcard p{margin:0;color:#707988}
+</style>
 </head>
 <body>
-<header class="topbar">
-  <div class="brand">
-    <div class="logo">BSR</div>
-    <div><div class="academy">B.S. RAO MATH & SCIENCE ACADEMY</div><div class="tagline">Student Examination Portal</div></div>
-  </div>
-</header>
+<div class="wrap">
+<section class="hero">
+<h1>Hall Ticket &amp; Result</h1>
+<p>Enter your Hall Ticket Number and Date of Birth to securely view your examination details.</p>
+</section>
 
-<main class="container">
-  <section class="hero">
-    <span class="badge">STUDENT PORTAL</span>
-    <h1>Hall Ticket & Result</h1>
-    <p>Enter your Hall Ticket Number and Date of Birth to securely view your examination details.</p>
-  </section>
+<section class="box">
+<label for="ticket">Hall Ticket Number</label>
+<input id="ticket" type="text" value="BSR260007" autocomplete="off" spellcheck="false">
 
-  <section class="card search-card">
-    <label for="hallNo">Hall Ticket Number</label>
-    <input id="hallNo" type="text" inputmode="text" placeholder="Example: BSR260001" autocomplete="off">
-    <label for="dob">Date of Birth</label>
-    <input id="dob" type="date">
-    <div class="actions">
-      <button class="primary" id="hallBtn">🎫 Download Hall Ticket</button>
-      <button class="secondary" id="resultBtn">📊 View Result</button>
-    </div>
-    <div id="message" class="message" aria-live="polite"></div>
-    <p class="demo">Demo login: <b>BSR260001</b> &nbsp; DOB: <b>2012-05-15</b></p>
-  </section>
+<label for="dob">Date of Birth</label>
+<input id="dob" type="date" value="2012-12-18">
 
-  <section class="info-grid">
-    <div class="info"><b>🎫 Hall Ticket</b><span>Student photo, exam schedule, QR verification and instructions.</span></div>
-    <div class="info"><b>📊 Result</b><span>Subject-wise marks, total, percentage and grade.</span></div>
-    <div class="info"><b>🖨️ Print</b><span>Print-ready A4 layout for school records.</span></div>
-  </section>
-</main>
+<button class="primary" onclick="openDetails('hall-ticket.html')">🎟️ Download Hall Ticket</button>
+<button class="secondary" onclick="openDetails('result.html')">📊 View Result</button>
 
-<div id="overlay" class="overlay hidden">
-  <div class="modal">
-    <button class="close" id="closeModal">×</button>
-    <div id="modalContent"></div>
-  </div>
+<div id="msg" class="msg"></div>
+
+<div class="demo">Demo login: <b>BSR260007</b> &nbsp; DOB: <b>18/12/2012</b></div>
+</section>
+
+<section class="links">
+<div class="linkcard" onclick="openDetails('hall-ticket.html')">
+<h3>🎟️ Hall Ticket</h3><p>Student photo, exam schedule, verification and instructions.</p>
+</div>
+<div class="linkcard" onclick="openDetails('result.html')">
+<h3>📊 Result</h3><p>Subject-wise marks, total, percentage and grade.</p>
+</div>
+<div class="linkcard">
+<h3>🖨️ Print</h3><p>Open the Hall Ticket and use your browser's Print option.</p>
+</div>
+</section>
 </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
-<script src="app.js"></script>
+<script>
+function validLogin(){
+  const ticket=document.getElementById('ticket').value.trim().toUpperCase();
+  const dob=document.getElementById('dob').value;
+  return ticket === 'BSR260007' && dob === '2012-12-18';
+}
+function openDetails(page){
+  const msg=document.getElementById('msg');
+  if(!validLogin()){
+    msg.className='msg error';
+    msg.style.display='block';
+    msg.textContent='Details not found. Please enter Hall Ticket Number BSR260007 and DOB 18/12/2012.';
+    return;
+  }
+  msg.className='msg ok';
+  msg.style.display='block';
+  msg.textContent='Verified successfully. Opening details...';
+  setTimeout(()=>{window.location.href=page;},250);
+}
+</script>
 </body>
 </html>
