@@ -1,17 +1,11 @@
-# B.S. RAO Math & Science Academy — Student Portal
+# BSR260007 GitHub Files
 
-## Files
-- `index.html` — portal UI
-- `styles.css` — responsive design and print styles
-- `app.js` — demo student verification, Hall Ticket, QR and Result
+Files:
+- `hall-ticket.html` — Hall Ticket
+- `verify.html` — Admit Card verification page
+- `result.html` — Result page (marks intentionally blank/not published)
+- `student.json` — Student record
+- `student-photo.png` — Cropped photo from the supplied hall-ticket image
+- `style.css` — Shared styling
 
-## GitHub Pages
-Upload all three files to the repository root and use:
-- Branch: `main`
-- Folder: `/ (root)`
-
-Then open:
-https://bsrao38.github.io/bsraomathscienceacademy/
-
-## Important
-This is a static GitHub Pages version. The sample student record is stored in `app.js`, so it is **not suitable for confidential real student data**. For production use with real student information, connect the portal to a proper authenticated backend/database and avoid placing private records in public JavaScript.
+The document is explicitly for a mock/practice examination and is not a CBSE-issued document.
