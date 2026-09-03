@@ -1,18 +1,55 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>B.S.RAO Academy</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>B.S. RAO Math & Science Academy | Student Portal</title>
+<meta name="description" content="B.S. RAO Math & Science Academy Student Hall Ticket and Result Portal">
+<link rel="stylesheet" href="styles.css">
 </head>
-<body style="font-family:Arial;text-align:center;padding:40px;">
-  <h1>B.S.RAO MATH & SCIENCE ACADEMY</h1>
-  <h2>Student Portal</h2>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <div class="logo">BSR</div>
+    <div><div class="academy">B.S. RAO MATH & SCIENCE ACADEMY</div><div class="tagline">Student Examination Portal</div></div>
+  </div>
+</header>
 
-  <input placeholder="Hall Ticket No"><br><br>
-  <input placeholder="Date of Birth"><br><br>
+<main class="container">
+  <section class="hero">
+    <span class="badge">STUDENT PORTAL</span>
+    <h1>Hall Ticket & Result</h1>
+    <p>Enter your Hall Ticket Number and Date of Birth to securely view your examination details.</p>
+  </section>
 
-  <button>Download Hall Ticket</button><br><br>
-  <button>View Result</button>
+  <section class="card search-card">
+    <label for="hallNo">Hall Ticket Number</label>
+    <input id="hallNo" type="text" inputmode="text" placeholder="Example: BSR260001" autocomplete="off">
+    <label for="dob">Date of Birth</label>
+    <input id="dob" type="date">
+    <div class="actions">
+      <button class="primary" id="hallBtn">🎫 Download Hall Ticket</button>
+      <button class="secondary" id="resultBtn">📊 View Result</button>
+    </div>
+    <div id="message" class="message" aria-live="polite"></div>
+    <p class="demo">Demo login: <b>BSR260001</b> &nbsp; DOB: <b>2012-05-15</b></p>
+  </section>
+
+  <section class="info-grid">
+    <div class="info"><b>🎫 Hall Ticket</b><span>Student photo, exam schedule, QR verification and instructions.</span></div>
+    <div class="info"><b>📊 Result</b><span>Subject-wise marks, total, percentage and grade.</span></div>
+    <div class="info"><b>🖨️ Print</b><span>Print-ready A4 layout for school records.</span></div>
+  </section>
+</main>
+
+<div id="overlay" class="overlay hidden">
+  <div class="modal">
+    <button class="close" id="closeModal">×</button>
+    <div id="modalContent"></div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script src="app.js"></script>
 </body>
 </html>
