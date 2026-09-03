@@ -38,7 +38,7 @@ button{width:100%;padding:17px;border:0;border-radius:15px;font-size:19px;font-w
 <input id="ticket" type="text" value="BSR260007" autocomplete="off" spellcheck="false">
 
 <label for="dob">Date of Birth</label>
-<input id="dob" type="date" value="2012-12-18">
+<input id="dob" type="text" value="18/12/2012" inputmode="numeric" maxlength="10" placeholder="DD/MM/YYYY" autocomplete="off">
 
 <button class="primary" onclick="openDetails('hall-ticket.html')">🎟️ Download Hall Ticket</button>
 <button class="secondary" onclick="openDetails('result.html')">📊 View Result</button>
@@ -64,15 +64,15 @@ button{width:100%;padding:17px;border:0;border-radius:15px;font-size:19px;font-w
 <script>
 function validLogin(){
   const ticket=document.getElementById('ticket').value.trim().toUpperCase();
-  const dob=document.getElementById('dob').value;
-  return ticket === 'BSR260007' && dob === '2012-12-18';
+  const dob=document.getElementById('dob').value.trim();
+  return ticket === 'BSR260007' && dob === '18/12/2012';
 }
 function openDetails(page){
   const msg=document.getElementById('msg');
   if(!validLogin()){
     msg.className='msg error';
     msg.style.display='block';
-    msg.textContent='Details not found. Please enter Hall Ticket Number BSR260007 and DOB 18/12/2012.';
+    msg.textContent='Details not found. Please enter Hall Ticket Number BSR260007 and DOB 18/12/2012 (DD/MM/YYYY).';
     return;
   }
   msg.className='msg ok';
