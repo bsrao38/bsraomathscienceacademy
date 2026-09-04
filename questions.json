@@ -1,0 +1,482 @@
+[
+  {
+    "id": "M1",
+    "subject": "Mathematics",
+    "question": "If 2x + 5 = 17, then x is",
+    "options": [
+      "7",
+      "6",
+      "5",
+      "4"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "M2",
+    "subject": "Mathematics",
+    "question": "The roots of x² - 5x + 6 = 0 are",
+    "options": [
+      "1, 6",
+      "2, 3",
+      "-2, -3",
+      "3, 4"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "M3",
+    "subject": "Mathematics",
+    "question": "The distance between (0,0) and (3,4) is",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "7"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "M4",
+    "subject": "Mathematics",
+    "question": "sin 30° is",
+    "options": [
+      "1/2",
+      "√3/2",
+      "1",
+      "0"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "M5",
+    "subject": "Mathematics",
+    "question": "The HCF of 36 and 48 is",
+    "options": [
+      "6",
+      "8",
+      "12",
+      "18"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "M6",
+    "subject": "Mathematics",
+    "question": "The 10th term of AP 3, 7, 11, ... is",
+    "options": [
+      "35",
+      "39",
+      "43",
+      "47"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "M7",
+    "subject": "Mathematics",
+    "question": "The area of a circle of radius 7 cm (π=22/7) is",
+    "options": [
+      "44 cm²",
+      "154 cm²",
+      "308 cm²",
+      "49 cm²"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "M8",
+    "subject": "Mathematics",
+    "question": "If tan θ = 1, for an acute angle θ, then θ is",
+    "options": [
+      "30°",
+      "45°",
+      "60°",
+      "90°"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "M9",
+    "subject": "Mathematics",
+    "question": "The probability of getting a head when a fair coin is tossed once is",
+    "options": [
+      "0",
+      "1/4",
+      "1/2",
+      "1"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "M10",
+    "subject": "Mathematics",
+    "question": "The mean of 4, 6, 8, 10, 12 is",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "10"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "M11",
+    "subject": "Mathematics",
+    "question": "A quadratic polynomial has degree",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "M12",
+    "subject": "Mathematics",
+    "question": "The midpoint of (2,4) and (6,8) is",
+    "options": [
+      "(4,6)",
+      "(8,12)",
+      "(2,2)",
+      "(3,4)"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "M13",
+    "subject": "Mathematics",
+    "question": "If a:b = 2:3 and b:c = 4:5, then a:c is",
+    "options": [
+      "2:5",
+      "8:15",
+      "3:5",
+      "4:15"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "M14",
+    "subject": "Mathematics",
+    "question": "The volume of a cube of side 5 cm is",
+    "options": [
+      "25 cm³",
+      "75 cm³",
+      "100 cm³",
+      "125 cm³"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "M15",
+    "subject": "Mathematics",
+    "question": "The sum of first 10 natural numbers is",
+    "options": [
+      "45",
+      "50",
+      "55",
+      "60"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "M16",
+    "subject": "Mathematics",
+    "question": "If two triangles are similar, their corresponding angles are",
+    "options": [
+      "Equal",
+      "Supplementary",
+      "Complementary",
+      "Unequal"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "M17",
+    "subject": "Mathematics",
+    "question": "The slope of y = 3x + 2 is",
+    "options": [
+      "2",
+      "3",
+      "-3",
+      "1/3"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "M18",
+    "subject": "Mathematics",
+    "question": "√144 equals",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "14"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "M19",
+    "subject": "Mathematics",
+    "question": "If circumference is 44 cm, radius is (π=22/7)",
+    "options": [
+      "5 cm",
+      "6 cm",
+      "7 cm",
+      "14 cm"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "M20",
+    "subject": "Mathematics",
+    "question": "The value of (a+b)² is",
+    "options": [
+      "a²+b²",
+      "a²+2ab+b²",
+      "a²-ab+b²",
+      "a²+ab+b²"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "P1",
+    "subject": "Physics",
+    "question": "The SI unit of force is",
+    "options": [
+      "Joule",
+      "Newton",
+      "Watt",
+      "Pascal"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "P2",
+    "subject": "Physics",
+    "question": "Speed is equal to",
+    "options": [
+      "Distance × time",
+      "Distance / time",
+      "Time / distance",
+      "Distance + time"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "P3",
+    "subject": "Physics",
+    "question": "Acceleration due to gravity on Earth is approximately",
+    "options": [
+      "9.8 m/s²",
+      "98 m/s²",
+      "0.98 m/s²",
+      "8.9 m/s²"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "P4",
+    "subject": "Physics",
+    "question": "Electrical resistance is measured in",
+    "options": [
+      "Volt",
+      "Ampere",
+      "Ohm",
+      "Watt"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "P5",
+    "subject": "Physics",
+    "question": "The image formed by a plane mirror is",
+    "options": [
+      "Real and inverted",
+      "Virtual and erect",
+      "Real and erect",
+      "Virtual and inverted"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "P6",
+    "subject": "Physics",
+    "question": "The SI unit of electric power is",
+    "options": [
+      "Volt",
+      "Ohm",
+      "Watt",
+      "Coulomb"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "P7",
+    "subject": "Physics",
+    "question": "A device used to measure electric current is",
+    "options": [
+      "Voltmeter",
+      "Ammeter",
+      "Barometer",
+      "Thermometer"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "P8",
+    "subject": "Physics",
+    "question": "Which lens corrects myopia?",
+    "options": [
+      "Convex lens",
+      "Concave lens",
+      "Cylindrical lens",
+      "Plane glass"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "P9",
+    "subject": "Physics",
+    "question": "Work done is zero when force and displacement are",
+    "options": [
+      "Parallel",
+      "Opposite",
+      "Perpendicular",
+      "Same direction"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "P10",
+    "subject": "Physics",
+    "question": "Speed of light in vacuum is approximately",
+    "options": [
+      "3×10⁶ m/s",
+      "3×10⁷ m/s",
+      "3×10⁸ m/s",
+      "3×10⁹ m/s"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "C1",
+    "subject": "Chemistry",
+    "question": "The chemical formula of water is",
+    "options": [
+      "CO₂",
+      "H₂O",
+      "O₂",
+      "H₂"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "C2",
+    "subject": "Chemistry",
+    "question": "A solution with pH 7 is",
+    "options": [
+      "Acidic",
+      "Basic",
+      "Neutral",
+      "Strongly acidic"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "C3",
+    "subject": "Chemistry",
+    "question": "The atomic number of carbon is",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "12"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "C4",
+    "subject": "Chemistry",
+    "question": "NaCl is commonly known as",
+    "options": [
+      "Baking soda",
+      "Common salt",
+      "Washing soda",
+      "Bleaching powder"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "C5",
+    "subject": "Chemistry",
+    "question": "Gas released when an acid reacts with a metal is",
+    "options": [
+      "Oxygen",
+      "Hydrogen",
+      "Nitrogen",
+      "Carbon dioxide"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "C6",
+    "subject": "Chemistry",
+    "question": "Coating iron with zinc is called",
+    "options": [
+      "Alloying",
+      "Galvanisation",
+      "Distillation",
+      "Crystallisation"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "C7",
+    "subject": "Chemistry",
+    "question": "The main component of natural gas is",
+    "options": [
+      "Ethane",
+      "Methane",
+      "Propane",
+      "Butane"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "C8",
+    "subject": "Chemistry",
+    "question": "Which is a strong acid?",
+    "options": [
+      "HCl",
+      "CH₃COOH",
+      "H₂CO₃",
+      "H₂O"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "C9",
+    "subject": "Chemistry",
+    "question": "The valency of oxygen is",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "C10",
+    "subject": "Chemistry",
+    "question": "Rusting of iron requires oxygen and",
+    "options": [
+      "Nitrogen",
+      "Carbon dioxide",
+      "Water/moisture",
+      "Hydrogen"
+    ],
+    "answer": "C"
+  }
+]
