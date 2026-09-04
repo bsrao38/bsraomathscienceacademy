@@ -14,7 +14,7 @@ input{width:100%;padding:14px;border:1px solid #bbb;border-radius:10px;font-size
 <div class="card"><div class="top"><div><b>BSR260007</b><br>BATHINI RISHMITHA • X-A</div><div class="timer"><span id="timer">45:00</span></div></div><div class="bar"><div id="fill" class="fill"></div></div></div>
 <div class="card"><div class="subject" id="subject"></div><div class="muted" id="qno"></div><div class="question" id="question"></div><div id="options"></div>
 <div class="nav"><button class="btn light" onclick="prev()">Previous</button><button class="btn dark" onclick="next()">Next</button></div>
-<button class="btn red" onclick="submitTest(false)">Submit Test</button><div class="palette" id="palette"></div>
+<button class="btn red" onclick="submitTest()">Submit Test</button><div class="palette" id="palette"></div>
 <div class="notice">Maximum: <b>160 marks</b>. Correct +4, Incorrect −1, Unattempted 0. Test duration: <b>45 minutes</b>.</div></div></div>
 <div id="result" class="card hidden result"><h1>Mock Test Result</h1><h2>BATHINI RISHMITHA</h2><p>Hall Ticket: <b>BSR260007</b></p><div class="score" id="score"></div><div id="breakdown"></div><button class="btn dark" style="width:100%;margin-top:16px" onclick="location.reload()">Back to Login</button></div>
 </div>
@@ -26,4 +26,18 @@ function tick(){seconds--;timer.textContent=String(Math.floor(seconds/60)).padSt
 function render(){let q=qs[current];subject.textContent=q.subject;qno.textContent='Question '+(current+1)+' of 40';question.textContent=q.question;options.innerHTML='';q.options.forEach((x,i)=>{let b=document.createElement('button');let l=String.fromCharCode(65+i);b.className='option'+(answers[q.id]===l?' selected':'');b.textContent=l+'. '+x;b.onclick=()=>{answers[q.id]=l;render()};options.appendChild(b)});fill.style.width=((current+1)/40*100)+'%';palette.innerHTML='';qs.forEach((x,i)=>{let b=document.createElement('button');b.className='dot '+(answers[x.id]?'done ':'')+(i===current?'current':'');b.textContent=i+1;b.onclick=()=>{current=i;render()};palette.appendChild(b)})}
 function next(){if(current<39){current++;render()}}function prev(){if(current>0){current--;render()}}
 function submitTest(auto){if(!auto&&!confirm('Are you sure you want to submit the test?'))return;clearInterval(timerId);let c=0,w=0,u=0;let sub={Mathematics:[0,0],Physics:[0,0],Chemistry:[0,0]};qs.forEach(q=>{let a=answers[q.id];if(!a){u++}else if(a===q.answer){c++;sub[q.subject][0]++}else{w++;sub[q.subject][1]++}});let marks=c*4-w;test.classList.add('hidden');result.classList.remove('hidden');score.textContent=marks+' / 160';let pct=(marks/160*100).toFixed(2);breakdown.innerHTML='<div class="row"><span>Correct</span><b>'+c+'</b></div><div class="row"><span>Incorrect</span><b>'+w+'</b></div><div class="row"><span>Unattempted</span><b>'+u+'</b></div><div class="row"><span>Percentage</span><b>'+pct+'%</b></div>'+['Mathematics','Physics','Chemistry'].map(s=>'<h3>'+s+'</h3><div class="row"><span>Correct</span><b>'+sub[s][0]+'</b></div><div class="row"><span>Incorrect</span><b>'+sub[s][1]+'</b></div>').join('')}
-</script></body></html>
+</script> <script>
+function submitTest(){
+  let score = 0;
+
+  questions.forEach((q,i)=>{
+    if(answers[i]===q.answer) score += 4;
+    else if(answers[i]!=null) score -= 1;
+  });
+
+  alert(
+    "B.S. RAO ACADEMY\n\n" +
+    "Score: " + score + " / 160"
+  );
+}
+</script> </body></html>
