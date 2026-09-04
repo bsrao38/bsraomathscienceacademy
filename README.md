@@ -1,11 +1,11 @@
-# BSR260007 GitHub Files
+# BSR260007 Online Objective Mock Test
 
-Files:
-- `hall-ticket.html` — Hall Ticket
-- `verify.html` — Admit Card verification page
-- `result.html` — Result page (marks intentionally blank/not published)
-- `student.json` — Student record
-- `student-photo.png` — Cropped photo from the supplied hall-ticket image
-- `style.css` — Shared styling
+40 MCQs: 20 Mathematics, 10 Physics, 10 Chemistry.
+Duration: 45 minutes.
+Marking: +4 correct, -1 incorrect, 0 unattempted.
+Maximum: 160 marks.
 
-The document is explicitly for a mock/practice examination and is not a CBSE-issued document.
+Login: BSR260007 / 18/12/2012.
+
+Upload `mock-test.html` and `questions.json` to the same GitHub Pages folder.
+Link to `mock-test.html` from the existing Hall Ticket/index page.
