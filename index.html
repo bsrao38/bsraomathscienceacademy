@@ -1,10 +1,75 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0b57d0"><title>B.S. RAO GOLDEN 10™</title><link rel="stylesheet" href="style.css"></head><body>
-<header><div class="brand"><b>BR</b><span>B.S. RAO<small>GOLDEN 10™</small></span></div><button>☰</button></header>
-<main>
-<section class="hero"><i>CBSE</i><i>6th–10th</i><h1>B.S. RAO<br>Math & Science Academy</h1><p>Mastery-based learning • Maths • Physics • Chemistry</p><a href="#tests">Start Mock Test</a><a class="alt" href="#levels">Explore Levels</a></section>
-<section class="stats"><div><strong>200</strong>Mock Tests</div><div><strong>5</strong>CBSE Classes</div><div><strong>10</strong>Golden Levels</div><div><strong>3</strong>Ramanujan Stages</div></section>
-<section class="features"><article>📖<b>Study Notes</b><small>PDF & revision</small></article><article>📝<b>Online Mock Test</b><small>Mastery practice</small></article><article>🏆<b>Rank Board</b><small>Class-wise ranks</small></article><article>📊<b>Results</b><small>Score & analytics</small></article></section>
-<section id="tests"><label>ONLINE MOCK TEST</label><h2>Choose Class</h2><div id="classes"></div><h2 id="levels">Choose Golden Level</h2><div id="levelsGrid"></div><div id="detail"></div></section>
-<section><label>SRINIVASA RAMANUJAN SERIES</label><h2>Three-stage mastery</h2><div class="stages"><article><b>① Foundation — KNOW</b><p>Concepts • Basic sums • Direct formulas</p></article><article><b>② Logical — THINK</b><p>Tricky questions • Applications • Connections</p></article><article><b>③ Elite — MASTER</b><p>HOTS • Multi-step reasoning • Time challenge</p></article></div></section>
-<section class="challenge"><label>FINAL STAGE</label><h2>🏆 Master Challenge</h2><p>Mixed real-exam simulation to test application under time pressure.</p><button onclick="alert('Master Challenge will connect to the question bank in Phase 2.')">Enter Challenge</button></section>
-</main><footer><b>B.S. RAO MATH & SCIENCE ACADEMY</b><p>Golden 10™ Mastery System</p></footer><script src="app.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>B.S. RAO GOLDEN 10™</title>
+<link rel="stylesheet" href="style.css?v=2">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand"><div class="logo">BR</div><div><b>B.S. RAO</b><span>GOLDEN 10™</span></div></div>
+  <nav><a href="#home">Home</a><a href="#tests">Mock Tests</a><a href="#levels">Levels</a></nav>
+</header>
+
+<main id="home">
+<section class="hero">
+  <div class="badge">CBSE • CLASSES 6–10</div>
+  <h1>B.S. RAO<br><strong>GOLDEN 10™</strong></h1>
+  <p>Master Maths & Science step-by-step — Know → Think → Master → Challenge.</p>
+  <div class="heroBtns"><a class="primary" href="#tests">Start Mock Test</a><a class="secondary" href="#levels">Explore Levels</a></div>
+</section>
+
+<section class="stats">
+  <div><b>200</b><span>Mock Tests</span></div><div><b>5</b><span>Classes</span></div>
+  <div><b>10</b><span>Golden Levels</span></div><div><b>3</b><span>Mastery Stages</span></div>
+</section>
+
+<section class="cards">
+  <article><h3>📚 Study Notes</h3><p>PDF notes & quick revision.</p></article>
+  <article><h3>📝 Online Mock Test</h3><p>200-test mastery system.</p></article>
+  <article><h3>🏆 Rank Board</h3><p>Class-wise performance ranking.</p></article>
+  <article><h3>📊 Results</h3><p>Score card & progress.</p></article>
+</section>
+
+<section id="tests" class="section">
+  <div class="eyebrow">ONLINE MOCK TEST</div>
+  <h2>Choose Class</h2>
+  <div id="classes" class="choiceGrid">
+    <button class="choice active" data-class="6">Class 6</button>
+    <button class="choice" data-class="7">Class 7</button>
+    <button class="choice" data-class="8">Class 8</button>
+    <button class="choice" data-class="9">Class 9</button>
+    <button class="choice" data-class="10">Class 10</button>
+  </div>
+
+  <h2 id="levels" class="levelHeading">Choose Golden Level</h2>
+  <div id="levelsGrid" class="choiceGrid">
+    <button class="choice active" data-level="1">Level 1<small>Number Mastery</small></button>
+    <button class="choice" data-level="2">Level 2<small>Number Theory</small></button>
+    <button class="choice" data-level="3">Level 3<small>Fractions & Decimals</small></button>
+    <button class="choice" data-level="4">Level 4<small>Powers</small></button>
+    <button class="choice" data-level="5">Level 5<small>Exponents & Algebra</small></button>
+    <button class="choice" data-level="6">Level 6<small>Commercial Maths</small></button>
+    <button class="choice" data-level="7">Level 7<small>Geometry</small></button>
+    <button class="choice" data-level="8">Level 8<small>Mensuration</small></button>
+    <button class="choice" data-level="9">Level 9<small>Advanced Foundation</small></button>
+    <button class="choice" data-level="10">Level 10<small>CBSE Excellence</small></button>
+  </div>
+  <div id="detail" class="detail"></div>
+</section>
+
+<section class="section stages">
+  <div class="eyebrow">RAMANUJAN SERIES</div><h2>3 Mastery Stages</h2>
+  <div class="stageCards">
+    <article><span>📗</span><h3>Foundation — KNOW</h3><p>Concepts, formulas, basic and direct questions.</p></article>
+    <article><span>🧠</span><h3>Logical — THINK</h3><p>Tricky questions, connections and applications.</p></article>
+    <article><span>✨</span><h3>Elite — MASTER</h3><p>HOTS, multi-step reasoning and time challenge.</p></article>
+  </div>
+  <div class="challenge">🏆 <b>MASTER CHALLENGE</b><span>Mixed real-exam simulation after all three stages.</span></div>
+</section>
+</main>
+<footer>B.S. RAO MATH & SCIENCE ACADEMY • GOLDEN 10™</footer>
+<script defer src="app.js?v=2"></script>
+</body>
+</html>
