@@ -1,88 +1,10 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Hall Ticket & Result | BSR260007</title>
-<link rel="stylesheet" href="style.css">
-<style>
-body{font-family:Arial,sans-serif;background:#f3f5fa;margin:0;color:#16213b}
-.wrap{max-width:680px;margin:0 auto;padding:28px 18px 50px}
-.hero{text-align:center;padding:12px 8px 24px}
-.hero h1{font-size:38px;margin:0 0 12px}
-.hero p{font-size:20px;color:#697386;line-height:1.45}
-.box{background:#fff;border:1px solid #e1e5ec;border-radius:22px;padding:28px;box-shadow:0 5px 20px #00000010}
-label{display:block;font-weight:700;font-size:18px;margin:0 0 9px}
-input{width:100%;box-sizing:border-box;padding:17px 18px;border:2px solid #d2d7df;border-radius:15px;font-size:20px;margin-bottom:22px}
-button{width:100%;padding:17px;border:0;border-radius:15px;font-size:19px;font-weight:700;cursor:pointer;margin-top:2px}
-.primary{background:#111b2d;color:white}
-.secondary{background:#e8eefb;color:#284b89;margin-top:14px}
-.msg{display:none;margin-top:18px;padding:14px;border-radius:12px;font-weight:700}
-.error{background:#ffebee;color:#b71c1c}
-.ok{background:#e8f5e9;color:#1b5e20}
-.demo{margin-top:28px;text-align:center;color:#89919f}
-.links{margin-top:22px;display:grid;gap:16px}
-.linkcard{background:#fff;border:1px solid #e1e5ec;border-radius:18px;padding:20px}
-.linkcard h3{margin:0 0 8px;font-size:22px}.linkcard p{margin:0;color:#707988}
-</style>
-</head>
-<body>
-<div class="wrap">
-<section class="hero">
-<h1>Hall Ticket &amp; Result</h1>
-<p>Enter your Hall Ticket Number and Date of Birth to securely view your examination details.</p>
-</section>
-
-<section class="box">
-<label for="ticket">Hall Ticket Number</label>
-<input id="ticket" type="text" value="BSR260007" autocomplete="off" spellcheck="false">
-
-<label for="dob">Date of Birth</label>
-<input id="dob" type="text" value="18/12/2012" inputmode="numeric" maxlength="10" placeholder="DD/MM/YYYY" autocomplete="off">
-
-<button class="primary" onclick="openDetails('hall-ticket.html')">🎟️ Download Hall Ticket</button>
-<button class="secondary" onclick="openDetails('result.html')">📊 View Result</button>
-
-<div id="msg" class="msg"></div>
-
-<div class="demo">Demo login: <b>BSR260007</b> &nbsp; DOB: <b>18/12/2012</b></div>
-</section>
-
-<section class="links">
-<div class="linkcard" onclick="openDetails('hall-ticket.html')">
-<h3>🎟️ Hall Ticket</h3><p>Student photo, exam schedule, verification and instructions.</p>
-</div>
-<div class="linkcard" onclick="openDetails('result.html')">
-<h3>📊 Result</h3><p>Subject-wise marks, total, percentage and grade.</p> 
-  <a href="mock-test.html" class="btn">
-  📝 ONLINE MOCK TEST
-</a>
-</div>
-<div class="linkcard">
-<h3>🖨️ Print</h3><p>Open the Hall Ticket and use your browser's Print option.</p>
-</div>
-</section>
-</div>
-
-<script>
-function validLogin(){
-  const ticket=document.getElementById('ticket').value.trim().toUpperCase();
-  const dob=document.getElementById('dob').value.trim();
-  return ticket === 'BSR260007' && dob === '18/12/2012';
-}
-function openDetails(page){
-  const msg=document.getElementById('msg');
-  if(!validLogin()){
-    msg.className='msg error';
-    msg.style.display='block';
-    msg.textContent='Details not found. Please enter Hall Ticket Number BSR260007 and DOB 18/12/2012 (DD/MM/YYYY).';
-    return;
-  }
-  msg.className='msg ok';
-  msg.style.display='block';
-  msg.textContent='Verified successfully. Opening details...';
-  setTimeout(()=>{window.location.href=page;},250);
-}
-</script>
-</body>
-</html>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0b57d0"><title>B.S. RAO GOLDEN 10™</title><link rel="stylesheet" href="style.css"></head><body>
+<header><div class="brand"><b>BR</b><span>B.S. RAO<small>GOLDEN 10™</small></span></div><button>☰</button></header>
+<main>
+<section class="hero"><i>CBSE</i><i>6th–10th</i><h1>B.S. RAO<br>Math & Science Academy</h1><p>Mastery-based learning • Maths • Physics • Chemistry</p><a href="#tests">Start Mock Test</a><a class="alt" href="#levels">Explore Levels</a></section>
+<section class="stats"><div><strong>200</strong>Mock Tests</div><div><strong>5</strong>CBSE Classes</div><div><strong>10</strong>Golden Levels</div><div><strong>3</strong>Ramanujan Stages</div></section>
+<section class="features"><article>📖<b>Study Notes</b><small>PDF & revision</small></article><article>📝<b>Online Mock Test</b><small>Mastery practice</small></article><article>🏆<b>Rank Board</b><small>Class-wise ranks</small></article><article>📊<b>Results</b><small>Score & analytics</small></article></section>
+<section id="tests"><label>ONLINE MOCK TEST</label><h2>Choose Class</h2><div id="classes"></div><h2 id="levels">Choose Golden Level</h2><div id="levelsGrid"></div><div id="detail"></div></section>
+<section><label>SRINIVASA RAMANUJAN SERIES</label><h2>Three-stage mastery</h2><div class="stages"><article><b>① Foundation — KNOW</b><p>Concepts • Basic sums • Direct formulas</p></article><article><b>② Logical — THINK</b><p>Tricky questions • Applications • Connections</p></article><article><b>③ Elite — MASTER</b><p>HOTS • Multi-step reasoning • Time challenge</p></article></div></section>
+<section class="challenge"><label>FINAL STAGE</label><h2>🏆 Master Challenge</h2><p>Mixed real-exam simulation to test application under time pressure.</p><button onclick="alert('Master Challenge will connect to the question bank in Phase 2.')">Enter Challenge</button></section>
+</main><footer><b>B.S. RAO MATH & SCIENCE ACADEMY</b><p>Golden 10™ Mastery System</p></footer><script src="app.js"></script></body></html>
