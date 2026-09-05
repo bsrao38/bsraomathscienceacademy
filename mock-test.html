@@ -1,43 +1,115 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>BSR260007 | Online Objective Mock Test</title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>B.S. RAO GOLDEN 10™ — Mock Test</title>
 <style>
-*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:#f3f5fa;color:#16213b}.wrap{max-width:760px;margin:auto;padding:16px}.card{background:#fff;border-radius:18px;padding:20px;box-shadow:0 4px 18px #0001;margin-bottom:14px}h1{margin:0 0 8px}.muted{color:#6d7685}.timer{font-size:25px;font-weight:800}.top{display:flex;justify-content:space-between;gap:12px;align-items:center}.subject{font-weight:800;color:#a52b2b;margin-top:12px}.question{font-size:21px;font-weight:700;line-height:1.45;margin:15px 0}.option{display:block;width:100%;text-align:left;padding:14px;margin:9px 0;border:2px solid #d6dbe3;border-radius:12px;background:#fff;font-size:17px}.option.selected{border-color:#16213b;background:#edf1f8}.nav{display:flex;gap:10px;margin-top:16px}.btn{flex:1;padding:14px;border:0;border-radius:12px;font-size:17px;font-weight:700}.dark{background:#16213b;color:white}.light{background:#e7ebf3}.red{background:#9b1c1c;color:white;width:100%;margin-top:10px}.palette{display:flex;flex-wrap:wrap;gap:7px;margin-top:18px}.dot{width:36px;height:36px;border:1px solid #ccd2dc;border-radius:8px;background:#fff}.done{background:#dcefe1}.current{outline:3px solid #16213b}.bar{height:8px;background:#e3e7ef;border-radius:8px;overflow:hidden;margin-top:14px}.fill{height:100%;width:0;background:#16213b}.hidden{display:none}.result{text-align:center}.score{font-size:42px;font-weight:900}.row{display:flex;justify-content:space-between;border-bottom:1px solid #e1e4ea;padding:11px}.notice{background:#fff6dd;padding:12px;border-radius:10px;margin-top:14px}
-input{width:100%;padding:14px;border:1px solid #bbb;border-radius:10px;font-size:18px;margin:6px 0 14px}
-</style></head><body><div class="wrap">
-<div id="login" class="card"><h1>B.S. RAO MATH & SCIENCE ACADEMY</h1><h2>Online Objective Mock Test</h2>
-<p class="muted">20 Mathematics + 10 Physics + 10 Chemistry = <b>40 MCQs</b></p>
-<p>Marking: <b>+4 correct</b> &nbsp; <b>−1 incorrect</b> &nbsp; <b>0 unattempted</b></p>
-<label>Hall Ticket Number</label><input id="ticket" value="BSR260007">
-<label>Date of Birth (DD/MM/YYYY)</label><input id="dob" value="18/12/2012">
-<button class="btn dark" style="width:100%" onclick="start()">Start Test — 45 Minutes</button><p id="msg" style="color:#b71c1c;font-weight:bold"></p></div>
-<div id="test" class="hidden">
-<div class="card"><div class="top"><div><b>BSR260007</b><br>BATHINI RISHMITHA • X-A</div><div class="timer"><span id="timer">45:00</span></div></div><div class="bar"><div id="fill" class="fill"></div></div></div>
-<div class="card"><div class="subject" id="subject"></div><div class="muted" id="qno"></div><div class="question" id="question"></div><div id="options"></div>
-<div class="nav"><button class="btn light" onclick="prev()">Previous</button><button class="btn dark" onclick="next()">Next</button></div>
-<button class="btn red" onclick="submitTest()">Submit Test</button><div class="palette" id="palette"></div>
-<div class="notice">Maximum: <b>160 marks</b>. Correct +4, Incorrect −1, Unattempted 0. Test duration: <b>45 minutes</b>.</div></div></div>
-<div id="result" class="card hidden result"><h1>Mock Test Result</h1><h2>BATHINI RISHMITHA</h2><p>Hall Ticket: <b>BSR260007</b></p><div class="score" id="score"></div><div id="breakdown"></div><button class="btn dark" style="width:100%;margin-top:16px" onclick="location.reload()">Back to Login</button></div>
+*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:#f4f6fa;color:#172033}
+header{position:sticky;top:0;background:#fff;border-bottom:1px solid #ddd;padding:14px 5%;display:flex;justify-content:space-between;align-items:center;z-index:5}
+.brand{font-weight:800}.brand small{display:block;color:#697386;font-weight:500;letter-spacing:1px}
+.timer{font-weight:900;font-size:20px;color:#b42318}
+main{max-width:850px;margin:auto;padding:22px 4% 50px}
+.info{background:#172033;color:#fff;border-radius:16px;padding:18px;margin-bottom:18px}
+.info h1{margin:0 0 8px;font-size:22px}.info p{margin:4px 0;color:#d8deea}
+.subject-tabs{display:flex;gap:8px;flex-wrap:wrap;margin:15px 0}
+.tab{border:1px solid #ccd3df;background:#fff;border-radius:20px;padding:8px 13px;font-weight:700}.tab.active{background:#172033;color:#fff}
+.card{background:#fff;border:1px solid #e0e4eb;border-radius:18px;padding:22px;margin-bottom:16px}
+.meta{color:#697386;font-size:13px;font-weight:700;margin-bottom:10px}
+.q{font-size:19px;font-weight:700;line-height:1.45;margin-bottom:18px}
+.option{display:block;width:100%;text-align:left;border:1px solid #d5dbe5;background:#fff;border-radius:12px;padding:13px;margin:8px 0;font-size:16px;cursor:pointer}
+.option.selected{background:#eaf0ff;border-color:#172033}
+.nav{display:flex;justify-content:space-between;gap:10px;margin-top:18px}.btn{border:0;border-radius:12px;padding:13px 20px;font-weight:800;cursor:pointer}.prev{background:#e8ecf2}.next,.submit{background:#172033;color:#fff}.submit{display:none;background:#087443}
+.progress{height:9px;background:#e0e5ed;border-radius:10px;overflow:hidden;margin:10px 0 20px}.bar{height:100%;width:5%;background:#172033}
+.result{display:none;background:#fff;border-radius:18px;border:1px solid #dfe4ec;padding:25px;text-align:center}.score{font-size:44px;font-weight:900}.negative{color:#b42318}.rules{font-size:13px;color:#697386}
+@media(max-width:600px){.q{font-size:17px}.timer{font-size:18px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">B.S. RAO <small>GOLDEN 10™</small></div>
+  <div id="timer" class="timer">45:00</div>
+</header>
+<main>
+<section class="info">
+<h1>CBSE + IIT FOUNDATION MOCK TEST</h1>
+<p><b>20 Questions • 80 Marks • 45 Minutes</b></p>
+<p>Mathematics: 10 &nbsp; | &nbsp; Physics: 5 &nbsp; | &nbsp; Chemistry: 5</p>
+<p>Correct +4 &nbsp; • &nbsp; Incorrect −1 &nbsp; • &nbsp; Unattempted 0</p>
+</section>
+
+<div class="subject-tabs">
+<button class="tab active">Mathematics 10</button>
+<button class="tab">Physics 5</button>
+<button class="tab">Chemistry 5</button>
 </div>
+
+<div class="progress"><div id="bar" class="bar"></div></div>
+<div id="question"></div>
+
+<div class="nav">
+<button id="prev" class="btn prev">← Previous</button>
+<button id="next" class="btn next">Next →</button>
+<button id="submit" class="btn submit">Submit Test</button>
+</div>
+
+<div id="result" class="result"></div>
+</main>
+
 <script>
-let qs=[],answers={},current=0,seconds=2700,timerId;
-fetch('questions.json').then(r=>r.json()).then(d=>qs=d);
-function start(){let t=document.getElementById('ticket').value.trim().toUpperCase(),d=document.getElementById('dob').value.trim();if(t!=='BSR260007'||d!=='18/12/2012'){msg.textContent='Please enter BSR260007 and DOB 18/12/2012.';return}if(!qs.length){msg.textContent='Questions are loading. Try again.';return}login.classList.add('hidden');test.classList.remove('hidden');render();timerId=setInterval(tick,1000)}
-function tick(){seconds--;timer.textContent=String(Math.floor(seconds/60)).padStart(2,'0')+':'+String(seconds%60).padStart(2,'0');if(seconds<=0){clearInterval(timerId);submitTest(true)}}
-function render(){let q=qs[current];subject.textContent=q.subject;qno.textContent='Question '+(current+1)+' of 40';question.textContent=q.question;options.innerHTML='';q.options.forEach((x,i)=>{let b=document.createElement('button');let l=String.fromCharCode(65+i);b.className='option'+(answers[q.id]===l?' selected':'');b.textContent=l+'. '+x;b.onclick=()=>{answers[q.id]=l;render()};options.appendChild(b)});fill.style.width=((current+1)/40*100)+'%';palette.innerHTML='';qs.forEach((x,i)=>{let b=document.createElement('button');b.className='dot '+(answers[x.id]?'done ':'')+(i===current?'current':'');b.textContent=i+1;b.onclick=()=>{current=i;render()};palette.appendChild(b)})}
-function next(){if(current<39){current++;render()}}function prev(){if(current>0){current--;render()}}
-function submitTest(auto){if(!auto&&!confirm('Are you sure you want to submit the test?'))return;clearInterval(timerId);let c=0,w=0,u=0;let sub={Mathematics:[0,0],Physics:[0,0],Chemistry:[0,0]};qs.forEach(q=>{let a=answers[q.id];if(!a){u++}else if(a===q.answer){c++;sub[q.subject][0]++}else{w++;sub[q.subject][1]++}});let marks=c*4-w;test.classList.add('hidden');result.classList.remove('hidden');score.textContent=marks+' / 160';let pct=(marks/160*100).toFixed(2);breakdown.innerHTML='<div class="row"><span>Correct</span><b>'+c+'</b></div><div class="row"><span>Incorrect</span><b>'+w+'</b></div><div class="row"><span>Unattempted</span><b>'+u+'</b></div><div class="row"><span>Percentage</span><b>'+pct+'%</b></div>'+['Mathematics','Physics','Chemistry'].map(s=>'<h3>'+s+'</h3><div class="row"><span>Correct</span><b>'+sub[s][0]+'</b></div><div class="row"><span>Incorrect</span><b>'+sub[s][1]+'</b></div>').join('')}
-</script> <script>
-function submitTest(){
-  let score = 0;
+const questions = [{"id": 1, "subject": "Mathematics", "question": "Demo Mathematics Question 1 — replace this with the final question-bank question.", "options": ["Option A", "Option B", "Option C", "Option D"], "answer": 0}, {"id": 2, "subject": "Mathematics", "question": "Demo Mathematics Question 2 — replace this with the final question-bank question.", "options": ["Option A", "Option B", "Option C", "Option D"], "answer": 0}, {"id": 3, "subject": "Mathematics", "question": "Demo Mathematics Question 3 — replace this with the final question-bank question.", "options": ["Option A", "Option B", "Option C", "Option D"], "answer": 0}, {"id": 4, "subject": "Mathematics", "question": "Demo Mathematics Question 4 — replace this with the final question-bank question.", "options": ["Option A", "Option B", "Option C", "Option D"], "answer": 0}, {"id": 5, "subject": "Mathematics", "question": "Demo Mathematics Question 5 — replace this with the final question-bank question.", "options": ["Option A", "Option B", "Option C", "Option D"], "answer": 0}, {"id": 6, "subject": "Mathematics", "question": "Demo Mathematics Question 6 — replace this with the final question-bank question.", "options": ["Option A", "Option B", "Option C", "Option D"], "answer": 0}, {"id": 7, "subject": "Mathematics", "question": "Demo Mathematics Question 7 — replace this with the final question-bank question.", "options": ["Option A", "Option B", "Option C", "Option D"], "answer": 0}, {"id": 8, "subject": "Mathematics", "question": "Demo Mathematics Question 8 — replace this with the final question-bank question.", "options": ["Option A", "Option B", "Option C", "Option D"], "answer": 0}, {"id": 9, "subject": "Mathematics", "question": "Demo Mathematics Question 9 — replace this with the final question-bank question.", "options": ["Option A", "Option B", "Option C", "Option D"], "answer": 0}, {"id": 10, "subject": "Mathematics", "question": "Demo Mathematics Question 10 — replace this with the final question-bank question.", "options": ["Option A", "Option B", "Option C", "Option D"], "answer": 0}, {"id": 11, "subject": "Physics", "question": "Demo Physics Question 11 — replace this with the final question-bank question.", "options": ["Option A", "Option B", "Option C", "Option D"], "answer": 0}, {"id": 12, "subject": "Physics", "question": "Demo Physics Question 12 — replace this with the final question-bank question.", "options": ["Option A", "Option B", "Option C", "Option D"], "answer": 0}, {"id": 13, "subject": "Physics", "question": "Demo Physics Question 13 — replace this with the final question-bank question.", "options": ["Option A", "Option B", "Option C", "Option D"], "answer": 0}, {"id": 14, "subject": "Physics", "question": "Demo Physics Question 14 — replace this with the final question-bank question.", "options": ["Option A", "Option B", "Option C", "Option D"], "answer": 0}, {"id": 15, "subject": "Physics", "question": "Demo Physics Question 15 — replace this with the final question-bank question.", "options": ["Option A", "Option B", "Option C", "Option D"], "answer": 0}, {"id": 16, "subject": "Chemistry", "question": "Demo Chemistry Question 16 — replace this with the final question-bank question.", "options": ["Option A", "Option B", "Option C", "Option D"], "answer": 0}, {"id": 17, "subject": "Chemistry", "question": "Demo Chemistry Question 17 — replace this with the final question-bank question.", "options": ["Option A", "Option B", "Option C", "Option D"], "answer": 0}, {"id": 18, "subject": "Chemistry", "question": "Demo Chemistry Question 18 — replace this with the final question-bank question.", "options": ["Option A", "Option B", "Option C", "Option D"], "answer": 0}, {"id": 19, "subject": "Chemistry", "question": "Demo Chemistry Question 19 — replace this with the final question-bank question.", "options": ["Option A", "Option B", "Option C", "Option D"], "answer": 0}, {"id": 20, "subject": "Chemistry", "question": "Demo Chemistry Question 20 — replace this with the final question-bank question.", "options": ["Option A", "Option B", "Option C", "Option D"], "answer": 0}];
+let current=0, answers=Array(questions.length).fill(null), time=45*60, submitted=false;
 
-  questions.forEach((q,i)=>{
-    if(answers[i]===q.answer) score += 4;
-    else if(answers[i]!=null) score -= 1;
-  });
-
-  alert(
-    "B.S. RAO ACADEMY\n\n" +
-    "Score: " + score + " / 160"
-  );
+function render(){
+ const q=questions[current];
+ document.getElementById("bar").style.width=((current+1)/questions.length*100)+"%";
+ document.getElementById("question").innerHTML=`
+ <div class="card">
+  <div class="meta">Question ${current+1} of ${questions.length} • ${q.subject}</div>
+  <div class="q">${q.question}</div>
+  ${q.options.map((o,i)=>`<button class="option ${answers[current]===i?'selected':''}" onclick="selectOption(${i})">${String.fromCharCode(65+i)}. ${o}</button>`).join("")}
+ </div>`;
+ document.getElementById("prev").style.visibility=current===0?"hidden":"visible";
+ document.getElementById("next").style.display=current===questions.length-1?"none":"inline-block";
+ document.getElementById("submit").style.display=current===questions.length-1?"inline-block":"none";
 }
-</script> </body></html>
+function selectOption(i){answers[current]=i;render()}
+document.getElementById("prev").onclick=()=>{if(current>0){current--;render()}};
+document.getElementById("next").onclick=()=>{if(current<questions.length-1){current++;render()}};
+document.getElementById("submit").onclick=submitTest;
+
+function submitTest(){
+ if(submitted)return;
+ submitted=true;
+ let correct=0,wrong=0,unattempt=0;
+ questions.forEach((q,i)=>{
+   if(answers[i]===null) unattempt++;
+   else if(answers[i]===q.answer) correct++;
+   else wrong++;
+ });
+ const score=correct*4-wrong;
+ const max=questions.length*4;
+ const pct=(score/max*100).toFixed(2);
+ document.getElementById("question").style.display="none";
+ document.querySelector(".nav").style.display="none";
+ const r=document.getElementById("result");
+ r.style.display="block";
+ r.innerHTML=`<div class="meta">TEST COMPLETED</div>
+ <div class="score">${score}/${max}</div>
+ <p><b>Percentage: ${pct}%</b></p>
+ <p>Correct: ${correct} × 4 = ${correct*4}</p>
+ <p>Incorrect: ${wrong} × −1 = <span class="negative">−${wrong}</span></p>
+ <p>Unattempted: ${unattempt} × 0 = 0</p>
+ <hr><p class="rules">Scoring: +4 correct • −1 incorrect • 0 unattempted</p>`;
+}
+function tick(){
+ if(submitted)return;
+ const m=Math.floor(time/60),s=time%60;
+ document.getElementById("timer").textContent=`${String(m).padStart(2,"0")}:${String(s).padStart(2,"0")}`;
+ if(time<=0){submitTest();return}
+ time--;
+}
+setInterval(tick,1000);tick();render();
+</script>
+</body>
+</html>
