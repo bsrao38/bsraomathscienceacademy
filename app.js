@@ -54,7 +54,7 @@ function showLoadError(msg){
 
 async function boot(){
  try{
-   const r=await fetch("questions.json?ver=2",{cache:"no-store"});
+   const r=await fetch("questions_v2.json?ver=3",{cache:"no-store"});
    if(!r.ok) throw new Error("questions.json HTTP "+r.status);
    const data=await r.json();
    ALL=normalize(data);
@@ -91,18 +91,30 @@ function stagePage(c,l){
  ${stages.map(s=>`<div class="card"><h2>${s[1]}</h2><p>${s[2]}</p><button class="btn" onclick="startTest(${c},${l},'${s[0]}')">Start Test</button></div>`).join("")}</div>`;
 }
 function startTest(c,l,s){
- let student=load("student",0);
- let key=`${student}|${c}|${l}|${s}`;
- let used=load("usedQuestions",{});
- let old=used[key]||[];
- let pool=ALL.filter(q=>q.class===c&&q.level===l&&q.stage===s&&!old.includes(q.id));
- if(pool.length<20) pool=fallbackBank(c,l,s).filter(q=>!old.includes(q.id));
- if(pool.length<20){old=[];pool=ALL.filter(q=>q.class===c&&q.level===l&&q.stage===s);if(pool.length<20)pool=fallbackBank(c,l,s)}
- pool.sort(()=>Math.random()-0.5);
- const qs=pool.slice(0,20);
+ let student=load("student",0),key=`${student}|${c}|${l}|${s}`;
+ let used=load("usedQuestions",{}),old=used[key]||[];
+ let all=ALL.filter(q=>q.class===c&&q.level===l&&q.stage===s&&!old.includes(q.id));
+ // Preserve the academy's subject balance in every attempt.
+ let targets=c===10?{Mathematics:10,Physics:5,Chemistry:5}:{Mathematics:10,Science:10};
+ let qs=[];
+ Object.keys(targets).forEach(sub=>{
+   let pool=all.filter(q=>q.subject===sub).sort(()=>Math.random()-.5);
+   qs.push(...pool.slice(0,targets[sub]));
+ });
+ // If a student's unused pool is exhausted, recycle only after attempting unused questions first.
+ if(qs.length<20){
+   old=[];
+   all=ALL.filter(q=>q.class===c&&q.level===l&&q.stage===s);
+   qs=[];
+   Object.keys(targets).forEach(sub=>{
+     let pool=all.filter(q=>q.subject===sub).sort(()=>Math.random()-.5);
+     qs.push(...pool.slice(0,targets[sub]));
+   });
+ }
+ qs.sort(()=>Math.random()-.5);
  used[key]=old.concat(qs.map(q=>q.id));
  save("usedQuestions",used);
- save("activeTest",{c,l,s,qs,attempt:Math.floor(old.length/20)+1});
+ save("activeTest",{student,c,l,s,qs,attempt:Math.floor(old.length/20)+1,current:0,answers:{},endTime:null});
  testPage();
 }
 function testPage(){
