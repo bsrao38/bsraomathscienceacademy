@@ -1,19 +1,5 @@
-# B.S. RAO GOLDEN 10™ — Premium Question Engine V3
+# B.S. RAO GOLDEN 10™ — V4 QA Clean
 
-Academic session: 2026–27
+This package cleans the V3 structural bank by removing placeholder options such as `Option 1` and generic `Practice scenario N:` prefixes. It also restores a 45-minute timer, retake rotation, result review, and strict 12,000-question loading.
 
-## Structure
-- Classes 6–10
-- 10 Golden Levels
-- 4 stages: Foundation, Logical, Elite, Master Challenge
-- 60-question pool per Class × Level × Stage
-- 12,000 questions total
-- Classes 6–9: 30 Mathematics + 30 Science per pool
-- Class 10: 30 Mathematics + 15 Physics + 15 Chemistry per pool
-- 20-question attempt: 10/10 for Classes 6–9; 10/5/5 for Class 10
-
-## QA
-See `qa_report.json`. The build rejects incomplete banks instead of falling back to generic questions.
-
-## Academic integrity
-Questions are original and concept-aligned. They are not copied verbatim from CBSE/NCERT/ICSE/IGCSE/IB papers. Elite and Master Challenge use controlled international-style reasoning/presentation while remaining CBSE-first.
+**Important:** This is a structural/content-cleanup release, not a claim that every question has been teacher-reviewed. Review representative items before student release.
