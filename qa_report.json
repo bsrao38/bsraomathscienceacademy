@@ -1,2615 +1,1056 @@
 {
-  "expected_pools": 200,
-  "expected_questions": 12000,
+  "status": "PASS_WITH_ACADEMIC_REVIEW_REQUIRED",
+  "total_questions": 12000,
+  "placeholder_options": 0,
+  "practice_scenario_labels": 0,
+  "missing_answer": 0,
+  "duplicate_options": 0,
   "pools": {
-    "6|1|foundation": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "1 Patterns in Mathematics": 15,
-        "3 Number Play": 15,
-        "1 The Wonderful World of Science": 15,
-        "5 Measurement of Length and Motion": 15
-      }
-    },
-    "6|1|logical": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "1 Patterns in Mathematics": 15,
-        "3 Number Play": 15,
-        "1 The Wonderful World of Science": 15,
-        "5 Measurement of Length and Motion": 15
-      }
-    },
-    "6|1|elite": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "1 Patterns in Mathematics": 15,
-        "3 Number Play": 15,
-        "1 The Wonderful World of Science": 15,
-        "5 Measurement of Length and Motion": 15
-      }
-    },
-    "6|1|challenge": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "1 Patterns in Mathematics": 15,
-        "3 Number Play": 15,
-        "1 The Wonderful World of Science": 15,
-        "5 Measurement of Length and Motion": 15
-      }
-    },
-    "6|2|foundation": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "5 Prime Time": 30,
-        "6 Materials Around Us": 15,
-        "9 Methods of Separation in Everyday Life": 15
-      }
-    },
-    "6|2|logical": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "5 Prime Time": 30,
-        "6 Materials Around Us": 15,
-        "9 Methods of Separation in Everyday Life": 15
-      }
-    },
-    "6|2|elite": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "5 Prime Time": 30,
-        "6 Materials Around Us": 15,
-        "9 Methods of Separation in Everyday Life": 15
-      }
-    },
-    "6|2|challenge": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "5 Prime Time": 30,
-        "6 Materials Around Us": 15,
-        "9 Methods of Separation in Everyday Life": 15
-      }
-    },
-    "6|3|foundation": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "7 Fractions": 30,
-        "3 Mindful Eating: A Path to a Healthy Body": 30
-      }
-    },
-    "6|3|logical": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "7 Fractions": 30,
-        "3 Mindful Eating: A Path to a Healthy Body": 30
-      }
-    },
-    "6|3|elite": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "7 Fractions": 30,
-        "3 Mindful Eating: A Path to a Healthy Body": 30
-      }
-    },
-    "6|3|challenge": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "7 Fractions": 30,
-        "3 Mindful Eating: A Path to a Healthy Body": 30
-      }
-    },
-    "6|4|foundation": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "10 The Other Side of Zero": 30,
-        "7 Temperature and its Measurement": 15,
-        "8 A Journey through States of Water": 15
-      }
-    },
-    "6|4|logical": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "10 The Other Side of Zero": 30,
-        "7 Temperature and its Measurement": 15,
-        "8 A Journey through States of Water": 15
-      }
-    },
-    "6|4|elite": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "10 The Other Side of Zero": 30,
-        "7 Temperature and its Measurement": 15,
-        "8 A Journey through States of Water": 15
-      }
-    },
-    "6|4|challenge": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "10 The Other Side of Zero": 30,
-        "7 Temperature and its Measurement": 15,
-        "8 A Journey through States of Water": 15
-      }
-    },
-    "6|5|foundation": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "1 Patterns in Mathematics": 15,
-        "3 Number Play": 15,
-        "2 Diversity in the Living World": 15,
-        "10 Living Creatures: Exploring their Characteristics": 15
-      }
-    },
-    "6|5|logical": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "1 Patterns in Mathematics": 15,
-        "3 Number Play": 15,
-        "2 Diversity in the Living World": 15,
-        "10 Living Creatures: Exploring their Characteristics": 15
-      }
-    },
-    "6|5|elite": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "1 Patterns in Mathematics": 15,
-        "3 Number Play": 15,
-        "2 Diversity in the Living World": 15,
-        "10 Living Creatures: Exploring their Characteristics": 15
-      }
-    },
-    "6|5|challenge": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "1 Patterns in Mathematics": 15,
-        "3 Number Play": 15,
-        "2 Diversity in the Living World": 15,
-        "10 Living Creatures: Exploring their Characteristics": 15
-      }
-    },
-    "6|6|foundation": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "4 Data Handling and Presentation": 30,
-        "11 Nature's Treasures": 30
-      }
-    },
-    "6|6|logical": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "4 Data Handling and Presentation": 30,
-        "11 Nature's Treasures": 30
-      }
-    },
-    "6|6|elite": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "4 Data Handling and Presentation": 30,
-        "11 Nature's Treasures": 30
-      }
-    },
-    "6|6|challenge": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "4 Data Handling and Presentation": 30,
-        "11 Nature's Treasures": 30
-      }
-    },
-    "6|7|foundation": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "2 Lines and Angles": 15,
-        "8 Playing with Constructions": 15,
-        "4 Exploring Magnets": 30
-      }
-    },
-    "6|7|logical": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "2 Lines and Angles": 15,
-        "8 Playing with Constructions": 15,
-        "4 Exploring Magnets": 30
-      }
-    },
-    "6|7|elite": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "2 Lines and Angles": 15,
-        "8 Playing with Constructions": 15,
-        "4 Exploring Magnets": 30
-      }
-    },
-    "6|7|challenge": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "2 Lines and Angles": 15,
-        "8 Playing with Constructions": 15,
-        "4 Exploring Magnets": 30
-      }
-    },
-    "6|8|foundation": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "6 Perimeter and Area": 15,
-        "9 Symmetry": 15,
-        "12 Beyond Earth": 30
-      }
-    },
-    "6|8|logical": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "6 Perimeter and Area": 15,
-        "9 Symmetry": 15,
-        "12 Beyond Earth": 30
-      }
-    },
-    "6|8|elite": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "6 Perimeter and Area": 15,
-        "9 Symmetry": 15,
-        "12 Beyond Earth": 30
-      }
-    },
-    "6|8|challenge": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "6 Perimeter and Area": 15,
-        "9 Symmetry": 15,
-        "12 Beyond Earth": 30
-      }
-    },
-    "6|9|foundation": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "5 Prime Time": 15,
-        "7 Fractions": 15,
-        "5 Measurement of Length and Motion": 15,
-        "4 Exploring Magnets": 15
-      }
-    },
-    "6|9|logical": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "5 Prime Time": 15,
-        "7 Fractions": 15,
-        "5 Measurement of Length and Motion": 15,
-        "4 Exploring Magnets": 15
-      }
-    },
-    "6|9|elite": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "5 Prime Time": 15,
-        "7 Fractions": 15,
-        "5 Measurement of Length and Motion": 15,
-        "4 Exploring Magnets": 15
-      }
-    },
-    "6|9|challenge": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "5 Prime Time": 15,
-        "7 Fractions": 15,
-        "5 Measurement of Length and Motion": 15,
-        "4 Exploring Magnets": 15
-      }
-    },
-    "6|10|foundation": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "4 Data Handling and Presentation": 15,
-        "6 Perimeter and Area": 15,
-        "2 Diversity in the Living World": 15,
-        "11 Nature's Treasures": 15
-      }
-    },
-    "6|10|logical": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "4 Data Handling and Presentation": 15,
-        "6 Perimeter and Area": 15,
-        "2 Diversity in the Living World": 15,
-        "11 Nature's Treasures": 15
-      }
-    },
-    "6|10|elite": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "4 Data Handling and Presentation": 15,
-        "6 Perimeter and Area": 15,
-        "2 Diversity in the Living World": 15,
-        "11 Nature's Treasures": 15
-      }
-    },
-    "6|10|challenge": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "4 Data Handling and Presentation": 15,
-        "6 Perimeter and Area": 15,
-        "2 Diversity in the Living World": 15,
-        "11 Nature's Treasures": 15
-      }
-    },
-    "7|1|foundation": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "1 Large Numbers Around Us": 15,
-        "6 Number Play": 15,
-        "1 The Ever-Evolving World of Science": 15,
-        "8 Measurement of Time and Motion": 15
-      }
-    },
-    "7|1|logical": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "1 Large Numbers Around Us": 15,
-        "6 Number Play": 15,
-        "1 The Ever-Evolving World of Science": 15,
-        "8 Measurement of Time and Motion": 15
-      }
-    },
-    "7|1|elite": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "1 Large Numbers Around Us": 15,
-        "6 Number Play": 15,
-        "1 The Ever-Evolving World of Science": 15,
-        "8 Measurement of Time and Motion": 15
-      }
-    },
-    "7|1|challenge": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "1 Large Numbers Around Us": 15,
-        "6 Number Play": 15,
-        "1 The Ever-Evolving World of Science": 15,
-        "8 Measurement of Time and Motion": 15
-      }
-    },
-    "7|2|foundation": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "10 Operations with Integers": 15,
-        "11 Finding Common Ground": 15,
-        "4 The World of Metals and Non-metals": 15,
-        "2 Exploring Substances: Acidic, Basic, and Neutral": 15
-      }
-    },
-    "7|2|logical": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "10 Operations with Integers": 15,
-        "11 Finding Common Ground": 15,
-        "4 The World of Metals and Non-metals": 15,
-        "2 Exploring Substances: Acidic, Basic, and Neutral": 15
-      }
-    },
-    "7|2|elite": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "10 Operations with Integers": 15,
-        "11 Finding Common Ground": 15,
-        "4 The World of Metals and Non-metals": 15,
-        "2 Exploring Substances: Acidic, Basic, and Neutral": 15
-      }
-    },
-    "7|2|challenge": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "10 Operations with Integers": 15,
-        "11 Finding Common Ground": 15,
-        "4 The World of Metals and Non-metals": 15,
-        "2 Exploring Substances: Acidic, Basic, and Neutral": 15
-      }
-    },
-    "7|3|foundation": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "3 A Peek Beyond the Point": 10,
-        "8 Working with Fractions": 10,
-        "12 Another Peek Beyond the Point": 10,
-        "5 Changes Around Us: Physical and Chemical": 30
-      }
-    },
-    "7|3|logical": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "3 A Peek Beyond the Point": 10,
-        "8 Working with Fractions": 10,
-        "12 Another Peek Beyond the Point": 10,
-        "5 Changes Around Us: Physical and Chemical": 30
-      }
-    },
-    "7|3|elite": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "3 A Peek Beyond the Point": 10,
-        "8 Working with Fractions": 10,
-        "12 Another Peek Beyond the Point": 10,
-        "5 Changes Around Us: Physical and Chemical": 30
-      }
-    },
-    "7|3|challenge": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "3 A Peek Beyond the Point": 10,
-        "8 Working with Fractions": 10,
-        "12 Another Peek Beyond the Point": 10,
-        "5 Changes Around Us: Physical and Chemical": 30
-      }
-    },
-    "7|4|foundation": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "6 Number Play": 15,
-        "10 Operations with Integers": 15,
-        "7 Heat Transfer in Nature": 15,
-        "8 Measurement of Time and Motion": 15
-      }
-    },
-    "7|4|logical": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "6 Number Play": 15,
-        "10 Operations with Integers": 15,
-        "7 Heat Transfer in Nature": 15,
-        "8 Measurement of Time and Motion": 15
-      }
-    },
-    "7|4|elite": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "6 Number Play": 15,
-        "10 Operations with Integers": 15,
-        "7 Heat Transfer in Nature": 15,
-        "8 Measurement of Time and Motion": 15
-      }
-    },
-    "7|4|challenge": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "6 Number Play": 15,
-        "10 Operations with Integers": 15,
-        "7 Heat Transfer in Nature": 15,
-        "8 Measurement of Time and Motion": 15
-      }
-    },
-    "7|5|foundation": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "2 Arithmetic Expressions": 10,
-        "4 Expressions using Letter-Numbers": 10,
-        "15 Finding the Unknown": 10,
-        "11 Light: Shadows and Reflections": 30
-      }
-    },
-    "7|5|logical": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "2 Arithmetic Expressions": 10,
-        "4 Expressions using Letter-Numbers": 10,
-        "15 Finding the Unknown": 10,
-        "11 Light: Shadows and Reflections": 30
-      }
-    },
-    "7|5|elite": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "2 Arithmetic Expressions": 10,
-        "4 Expressions using Letter-Numbers": 10,
-        "15 Finding the Unknown": 10,
-        "11 Light: Shadows and Reflections": 30
-      }
-    },
-    "7|5|challenge": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "2 Arithmetic Expressions": 10,
-        "4 Expressions using Letter-Numbers": 10,
-        "15 Finding the Unknown": 10,
-        "11 Light: Shadows and Reflections": 30
-      }
-    },
-    "7|6|foundation": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "11 Finding Common Ground": 15,
-        "12 Another Peek Beyond the Point": 15,
-        "3 Electricity: Circuits and their Components": 30
-      }
-    },
-    "7|6|logical": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "11 Finding Common Ground": 15,
-        "12 Another Peek Beyond the Point": 15,
-        "3 Electricity: Circuits and their Components": 30
-      }
-    },
-    "7|6|elite": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "11 Finding Common Ground": 15,
-        "12 Another Peek Beyond the Point": 15,
-        "3 Electricity: Circuits and their Components": 30
-      }
-    },
-    "7|6|challenge": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "11 Finding Common Ground": 15,
-        "12 Another Peek Beyond the Point": 15,
-        "3 Electricity: Circuits and their Components": 30
-      }
-    },
-    "7|7|foundation": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "5 Parallel and Intersecting Lines": 8,
-        "7 A Tale of Three Intersecting Lines": 8,
-        "9 Geometric Twins": 7,
-        "14 Constructions and Tilings": 7,
-        "4 The World of Metals and Non-metals": 30
-      }
-    },
-    "7|7|logical": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "5 Parallel and Intersecting Lines": 8,
-        "7 A Tale of Three Intersecting Lines": 8,
-        "9 Geometric Twins": 7,
-        "14 Constructions and Tilings": 7,
-        "4 The World of Metals and Non-metals": 30
-      }
-    },
-    "7|7|elite": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "5 Parallel and Intersecting Lines": 8,
-        "7 A Tale of Three Intersecting Lines": 8,
-        "9 Geometric Twins": 7,
-        "14 Constructions and Tilings": 7,
-        "4 The World of Metals and Non-metals": 30
-      }
-    },
-    "7|7|challenge": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "5 Parallel and Intersecting Lines": 8,
-        "7 A Tale of Three Intersecting Lines": 8,
-        "9 Geometric Twins": 7,
-        "14 Constructions and Tilings": 7,
-        "4 The World of Metals and Non-metals": 30
-      }
-    },
-    "7|8|foundation": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "13 Connecting the Dots…": 15,
-        "14 Constructions and Tilings": 15,
-        "9 Life Processes in Animals": 15,
-        "10 Life Processes in Plants": 15
-      }
-    },
-    "7|8|logical": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "13 Connecting the Dots…": 15,
-        "14 Constructions and Tilings": 15,
-        "9 Life Processes in Animals": 15,
-        "10 Life Processes in Plants": 15
-      }
-    },
-    "7|8|elite": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "13 Connecting the Dots…": 15,
-        "14 Constructions and Tilings": 15,
-        "9 Life Processes in Animals": 15,
-        "10 Life Processes in Plants": 15
-      }
-    },
-    "7|8|challenge": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "13 Connecting the Dots…": 15,
-        "14 Constructions and Tilings": 15,
-        "9 Life Processes in Animals": 15,
-        "10 Life Processes in Plants": 15
-      }
-    },
-    "7|9|foundation": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "4 Expressions using Letter-Numbers": 15,
-        "15 Finding the Unknown": 15,
-        "6 Adolescence: A Stage of Growth and Change": 30
-      }
-    },
-    "7|9|logical": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "4 Expressions using Letter-Numbers": 15,
-        "15 Finding the Unknown": 15,
-        "6 Adolescence: A Stage of Growth and Change": 30
-      }
-    },
-    "7|9|elite": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "4 Expressions using Letter-Numbers": 15,
-        "15 Finding the Unknown": 15,
-        "6 Adolescence: A Stage of Growth and Change": 30
-      }
-    },
-    "7|9|challenge": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "4 Expressions using Letter-Numbers": 15,
-        "15 Finding the Unknown": 15,
-        "6 Adolescence: A Stage of Growth and Change": 30
-      }
-    },
-    "7|10|foundation": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "6 Number Play": 10,
-        "9 Geometric Twins": 10,
-        "13 Connecting the Dots…": 10,
-        "12 Earth, Moon, and the Sun": 15,
-        "1 The Ever-Evolving World of Science": 15
-      }
-    },
-    "7|10|logical": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "6 Number Play": 10,
-        "9 Geometric Twins": 10,
-        "13 Connecting the Dots…": 10,
-        "12 Earth, Moon, and the Sun": 15,
-        "1 The Ever-Evolving World of Science": 15
-      }
-    },
-    "7|10|elite": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "6 Number Play": 10,
-        "9 Geometric Twins": 10,
-        "13 Connecting the Dots…": 10,
-        "12 Earth, Moon, and the Sun": 15,
-        "1 The Ever-Evolving World of Science": 15
-      }
-    },
-    "7|10|challenge": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "6 Number Play": 10,
-        "9 Geometric Twins": 10,
-        "13 Connecting the Dots…": 10,
-        "12 Earth, Moon, and the Sun": 15,
-        "1 The Ever-Evolving World of Science": 15
-      }
-    },
-    "8|1|foundation": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "3 A Story of Numbers": 15,
-        "5 Number Play": 15,
-        "1 Exploring the Investigative World of Science": 15,
-        "2 The Invisible Living World: Beyond Our Naked Eye": 15
-      }
-    },
-    "8|1|logical": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "3 A Story of Numbers": 15,
-        "5 Number Play": 15,
-        "1 Exploring the Investigative World of Science": 15,
-        "2 The Invisible Living World: Beyond Our Naked Eye": 15
-      }
-    },
-    "8|1|elite": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "3 A Story of Numbers": 15,
-        "5 Number Play": 15,
-        "1 Exploring the Investigative World of Science": 15,
-        "2 The Invisible Living World: Beyond Our Naked Eye": 15
-      }
-    },
-    "8|1|challenge": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "3 A Story of Numbers": 15,
-        "5 Number Play": 15,
-        "1 Exploring the Investigative World of Science": 15,
-        "2 The Invisible Living World: Beyond Our Naked Eye": 15
-      }
-    },
-    "8|2|foundation": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "3 A Story of Numbers": 15,
-        "5 Number Play": 15,
-        "7 Particulate Nature of Matter": 15,
-        "8 Nature of Matter: Elements, Compounds, and Mixtures": 15
-      }
-    },
-    "8|2|logical": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "3 A Story of Numbers": 15,
-        "5 Number Play": 15,
-        "7 Particulate Nature of Matter": 15,
-        "8 Nature of Matter: Elements, Compounds, and Mixtures": 15
-      }
-    },
-    "8|2|elite": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "3 A Story of Numbers": 15,
-        "5 Number Play": 15,
-        "7 Particulate Nature of Matter": 15,
-        "8 Nature of Matter: Elements, Compounds, and Mixtures": 15
-      }
-    },
-    "8|2|challenge": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "3 A Story of Numbers": 15,
-        "5 Number Play": 15,
-        "7 Particulate Nature of Matter": 15,
-        "8 Nature of Matter: Elements, Compounds, and Mixtures": 15
-      }
-    },
-    "8|3|foundation": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "8 Fractions in Disguise": 30,
-        "9 The Amazing World of Solutes, Solvents, and Solutions": 30
-      }
-    },
-    "8|3|logical": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "8 Fractions in Disguise": 30,
-        "9 The Amazing World of Solutes, Solvents, and Solutions": 30
-      }
-    },
-    "8|3|elite": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "8 Fractions in Disguise": 30,
-        "9 The Amazing World of Solutes, Solvents, and Solutions": 30
-      }
-    },
-    "8|3|challenge": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "8 Fractions in Disguise": 30,
-        "9 The Amazing World of Solutes, Solvents, and Solutions": 30
-      }
-    },
-    "8|4|foundation": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "1 A Square and A Cube": 15,
-        "2 Power Play": 15,
-        "5 Exploring Forces": 15,
-        "6 Pressure, Winds, Storms, and Cyclones": 15
-      }
-    },
-    "8|4|logical": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "1 A Square and A Cube": 15,
-        "2 Power Play": 15,
-        "5 Exploring Forces": 15,
-        "6 Pressure, Winds, Storms, and Cyclones": 15
-      }
-    },
-    "8|4|elite": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "1 A Square and A Cube": 15,
-        "2 Power Play": 15,
-        "5 Exploring Forces": 15,
-        "6 Pressure, Winds, Storms, and Cyclones": 15
-      }
-    },
-    "8|4|challenge": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "1 A Square and A Cube": 15,
-        "2 Power Play": 15,
-        "5 Exploring Forces": 15,
-        "6 Pressure, Winds, Storms, and Cyclones": 15
-      }
-    },
-    "8|5|foundation": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "6 We Distribute, Yet Things Multiply": 15,
-        "13 Algebra Play": 15,
-        "10 Light: Mirrors and Lenses": 15,
-        "11 Keeping Time with the Skies": 15
-      }
-    },
-    "8|5|logical": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "6 We Distribute, Yet Things Multiply": 15,
-        "13 Algebra Play": 15,
-        "10 Light: Mirrors and Lenses": 15,
-        "11 Keeping Time with the Skies": 15
-      }
-    },
-    "8|5|elite": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "6 We Distribute, Yet Things Multiply": 15,
-        "13 Algebra Play": 15,
-        "10 Light: Mirrors and Lenses": 15,
-        "11 Keeping Time with the Skies": 15
-      }
-    },
-    "8|5|challenge": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "6 We Distribute, Yet Things Multiply": 15,
-        "13 Algebra Play": 15,
-        "10 Light: Mirrors and Lenses": 15,
-        "11 Keeping Time with the Skies": 15
-      }
-    },
-    "8|6|foundation": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "7 Proportional Reasoning-1": 15,
-        "10 Proportional Reasoning-2": 15,
-        "4 Electricity: Magnetic and Heating Effects": 30
-      }
-    },
-    "8|6|logical": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "7 Proportional Reasoning-1": 15,
-        "10 Proportional Reasoning-2": 15,
-        "4 Electricity: Magnetic and Heating Effects": 30
-      }
-    },
-    "8|6|elite": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "7 Proportional Reasoning-1": 15,
-        "10 Proportional Reasoning-2": 15,
-        "4 Electricity: Magnetic and Heating Effects": 30
-      }
-    },
-    "8|6|challenge": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "7 Proportional Reasoning-1": 15,
-        "10 Proportional Reasoning-2": 15,
-        "4 Electricity: Magnetic and Heating Effects": 30
-      }
-    },
-    "8|7|foundation": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "4 Quadrilaterals": 10,
-        "9 The Baudhayana–Pythagoras Theorem": 10,
-        "11 Exploring Some Geometric Themes": 10,
-        "5 Exploring Forces": 15,
-        "10 Light: Mirrors and Lenses": 15
-      }
-    },
-    "8|7|logical": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "4 Quadrilaterals": 10,
-        "9 The Baudhayana–Pythagoras Theorem": 10,
-        "11 Exploring Some Geometric Themes": 10,
-        "5 Exploring Forces": 15,
-        "10 Light: Mirrors and Lenses": 15
-      }
-    },
-    "8|7|elite": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "4 Quadrilaterals": 10,
-        "9 The Baudhayana–Pythagoras Theorem": 10,
-        "11 Exploring Some Geometric Themes": 10,
-        "5 Exploring Forces": 15,
-        "10 Light: Mirrors and Lenses": 15
-      }
-    },
-    "8|7|challenge": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "4 Quadrilaterals": 10,
-        "9 The Baudhayana–Pythagoras Theorem": 10,
-        "11 Exploring Some Geometric Themes": 10,
-        "5 Exploring Forces": 15,
-        "10 Light: Mirrors and Lenses": 15
-      }
-    },
-    "8|8|foundation": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "14 Area": 30,
-        "3 Health: The Ultimate Treasure": 15,
-        "12 How Nature Works in Harmony": 15
-      }
-    },
-    "8|8|logical": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "14 Area": 30,
-        "3 Health: The Ultimate Treasure": 15,
-        "12 How Nature Works in Harmony": 15
-      }
-    },
-    "8|8|elite": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "14 Area": 30,
-        "3 Health: The Ultimate Treasure": 15,
-        "12 How Nature Works in Harmony": 15
-      }
-    },
-    "8|8|challenge": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "14 Area": 30,
-        "3 Health: The Ultimate Treasure": 15,
-        "12 How Nature Works in Harmony": 15
-      }
-    },
-    "8|9|foundation": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "12 Tales by Dots and Lines": 15,
-        "13 Algebra Play": 15,
-        "8 Nature of Matter: Elements, Compounds, and Mixtures": 15,
-        "9 The Amazing World of Solutes, Solvents, and Solutions": 15
-      }
-    },
-    "8|9|logical": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "12 Tales by Dots and Lines": 15,
-        "13 Algebra Play": 15,
-        "8 Nature of Matter: Elements, Compounds, and Mixtures": 15,
-        "9 The Amazing World of Solutes, Solvents, and Solutions": 15
-      }
-    },
-    "8|9|elite": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "12 Tales by Dots and Lines": 15,
-        "13 Algebra Play": 15,
-        "8 Nature of Matter: Elements, Compounds, and Mixtures": 15,
-        "9 The Amazing World of Solutes, Solvents, and Solutions": 15
-      }
-    },
-    "8|9|challenge": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "12 Tales by Dots and Lines": 15,
-        "13 Algebra Play": 15,
-        "8 Nature of Matter: Elements, Compounds, and Mixtures": 15,
-        "9 The Amazing World of Solutes, Solvents, and Solutions": 15
-      }
-    },
-    "8|10|foundation": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "11 Exploring Some Geometric Themes": 15,
-        "14 Area": 15,
-        "13 Our Home: Earth, a Unique Life Sustaining Planet": 15,
-        "11 Keeping Time with the Skies": 15
-      }
-    },
-    "8|10|logical": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "11 Exploring Some Geometric Themes": 15,
-        "14 Area": 15,
-        "13 Our Home: Earth, a Unique Life Sustaining Planet": 15,
-        "11 Keeping Time with the Skies": 15
-      }
-    },
-    "8|10|elite": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "11 Exploring Some Geometric Themes": 15,
-        "14 Area": 15,
-        "13 Our Home: Earth, a Unique Life Sustaining Planet": 15,
-        "11 Keeping Time with the Skies": 15
-      }
-    },
-    "8|10|challenge": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "11 Exploring Some Geometric Themes": 15,
-        "14 Area": 15,
-        "13 Our Home: Earth, a Unique Life Sustaining Planet": 15,
-        "11 Keeping Time with the Skies": 15
-      }
-    },
-    "9|1|foundation": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "1 Number Systems": 30,
-        "1 Exploration: Entering the World of Secondary Science": 30
-      }
-    },
-    "9|1|logical": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "1 Number Systems": 30,
-        "1 Exploration: Entering the World of Secondary Science": 30
-      }
-    },
-    "9|1|elite": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "1 Number Systems": 30,
-        "1 Exploration: Entering the World of Secondary Science": 30
-      }
-    },
-    "9|1|challenge": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "1 Number Systems": 30,
-        "1 Exploration: Entering the World of Secondary Science": 30
-      }
-    },
-    "9|2|foundation": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "1 Number Systems": 15,
-        "2 Introduction to Polynomials": 15,
-        "8 Journey Inside the Atom": 15,
-        "9 Atomic Foundations of Matter": 15
-      }
-    },
-    "9|2|logical": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "1 Number Systems": 15,
-        "2 Introduction to Polynomials": 15,
-        "8 Journey Inside the Atom": 15,
-        "9 Atomic Foundations of Matter": 15
-      }
-    },
-    "9|2|elite": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "1 Number Systems": 15,
-        "2 Introduction to Polynomials": 15,
-        "8 Journey Inside the Atom": 15,
-        "9 Atomic Foundations of Matter": 15
-      }
-    },
-    "9|2|challenge": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "1 Number Systems": 15,
-        "2 Introduction to Polynomials": 15,
-        "8 Journey Inside the Atom": 15,
-        "9 Atomic Foundations of Matter": 15
-      }
-    },
-    "9|3|foundation": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "2 Introduction to Polynomials": 15,
-        "5 Linear Equations in Two Variables": 15,
-        "5 Exploring Mixtures and their Separation": 30
-      }
-    },
-    "9|3|logical": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "2 Introduction to Polynomials": 15,
-        "5 Linear Equations in Two Variables": 15,
-        "5 Exploring Mixtures and their Separation": 30
-      }
-    },
-    "9|3|elite": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "2 Introduction to Polynomials": 15,
-        "5 Linear Equations in Two Variables": 15,
-        "5 Exploring Mixtures and their Separation": 30
-      }
-    },
-    "9|3|challenge": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "2 Introduction to Polynomials": 15,
-        "5 Linear Equations in Two Variables": 15,
-        "5 Exploring Mixtures and their Separation": 30
-      }
-    },
-    "9|4|foundation": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "3 Sequences and Progressions": 30,
-        "4 Describing Motion Around Us": 15,
-        "6 How Forces Affect Motion": 15
-      }
-    },
-    "9|4|logical": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "3 Sequences and Progressions": 30,
-        "4 Describing Motion Around Us": 15,
-        "6 How Forces Affect Motion": 15
-      }
-    },
-    "9|4|elite": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "3 Sequences and Progressions": 30,
-        "4 Describing Motion Around Us": 15,
-        "6 How Forces Affect Motion": 15
-      }
-    },
-    "9|4|challenge": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "3 Sequences and Progressions": 30,
-        "4 Describing Motion Around Us": 15,
-        "6 How Forces Affect Motion": 15
-      }
-    },
-    "9|5|foundation": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "4 Exploring Algebraic Identities": 15,
-        "5 Linear Equations in Two Variables": 15,
-        "10 Sound Waves: Characteristics and Applications": 30
-      }
-    },
-    "9|5|logical": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "4 Exploring Algebraic Identities": 15,
-        "5 Linear Equations in Two Variables": 15,
-        "10 Sound Waves: Characteristics and Applications": 30
-      }
-    },
-    "9|5|elite": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "4 Exploring Algebraic Identities": 15,
-        "5 Linear Equations in Two Variables": 15,
-        "10 Sound Waves: Characteristics and Applications": 30
-      }
-    },
-    "9|5|challenge": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "4 Exploring Algebraic Identities": 15,
-        "5 Linear Equations in Two Variables": 15,
-        "10 Sound Waves: Characteristics and Applications": 30
-      }
-    },
-    "9|6|foundation": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "3 Sequences and Progressions": 30,
-        "7 Work, Energy and Simple Machines": 30
-      }
-    },
-    "9|6|logical": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "3 Sequences and Progressions": 30,
-        "7 Work, Energy and Simple Machines": 30
-      }
-    },
-    "9|6|elite": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "3 Sequences and Progressions": 30,
-        "7 Work, Energy and Simple Machines": 30
-      }
-    },
-    "9|6|challenge": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "3 Sequences and Progressions": 30,
-        "7 Work, Energy and Simple Machines": 30
-      }
-    },
-    "9|7|foundation": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "7 Introduction to Euclid's Geometry: Axioms and Postulates": 10,
-        "8 Lines and Angles": 10,
-        "9 Triangles: Congruence Theorems": 10,
-        "6 How Forces Affect Motion": 30
-      }
-    },
-    "9|7|logical": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "7 Introduction to Euclid's Geometry: Axioms and Postulates": 10,
-        "8 Lines and Angles": 10,
-        "9 Triangles: Congruence Theorems": 10,
-        "6 How Forces Affect Motion": 30
-      }
-    },
-    "9|7|elite": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "7 Introduction to Euclid's Geometry: Axioms and Postulates": 10,
-        "8 Lines and Angles": 10,
-        "9 Triangles: Congruence Theorems": 10,
-        "6 How Forces Affect Motion": 30
-      }
-    },
-    "9|7|challenge": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "7 Introduction to Euclid's Geometry: Axioms and Postulates": 10,
-        "8 Lines and Angles": 10,
-        "9 Triangles: Congruence Theorems": 10,
-        "6 How Forces Affect Motion": 30
-      }
-    },
-    "9|8|foundation": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "10 4-gons (Quadrilaterals)": 10,
-        "12 Mensuration: Area and Perimeter": 10,
-        "13 Mensuration: Surface Area and Volume": 10,
-        "2 Cell: The Building Block of Life": 15,
-        "3 Tissues in Action": 15
-      }
-    },
-    "9|8|logical": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "10 4-gons (Quadrilaterals)": 10,
-        "12 Mensuration: Area and Perimeter": 10,
-        "13 Mensuration: Surface Area and Volume": 10,
-        "2 Cell: The Building Block of Life": 15,
-        "3 Tissues in Action": 15
-      }
-    },
-    "9|8|elite": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "10 4-gons (Quadrilaterals)": 10,
-        "12 Mensuration: Area and Perimeter": 10,
-        "13 Mensuration: Surface Area and Volume": 10,
-        "2 Cell: The Building Block of Life": 15,
-        "3 Tissues in Action": 15
-      }
-    },
-    "9|8|challenge": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "10 4-gons (Quadrilaterals)": 10,
-        "12 Mensuration: Area and Perimeter": 10,
-        "13 Mensuration: Surface Area and Volume": 10,
-        "2 Cell: The Building Block of Life": 15,
-        "3 Tissues in Action": 15
-      }
-    },
-    "9|9|foundation": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "6 Coordinate Geometry": 15,
-        "11 Circles": 15,
-        "11 Reproduction: How Life Continues": 15,
-        "12 Patterns in Life: Diversity and Classification": 15
-      }
-    },
-    "9|9|logical": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "6 Coordinate Geometry": 15,
-        "11 Circles": 15,
-        "11 Reproduction: How Life Continues": 15,
-        "12 Patterns in Life: Diversity and Classification": 15
-      }
-    },
-    "9|9|elite": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "6 Coordinate Geometry": 15,
-        "11 Circles": 15,
-        "11 Reproduction: How Life Continues": 15,
-        "12 Patterns in Life: Diversity and Classification": 15
-      }
-    },
-    "9|9|challenge": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "6 Coordinate Geometry": 15,
-        "11 Circles": 15,
-        "11 Reproduction: How Life Continues": 15,
-        "12 Patterns in Life: Diversity and Classification": 15
-      }
-    },
-    "9|10|foundation": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "14 Statistics": 10,
-        "15 Introduction to Probability": 10,
-        "6 Coordinate Geometry": 10,
-        "13 Earth as a System: Energy, Matter and Life": 30
-      }
-    },
-    "9|10|logical": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "14 Statistics": 10,
-        "15 Introduction to Probability": 10,
-        "6 Coordinate Geometry": 10,
-        "13 Earth as a System: Energy, Matter and Life": 30
-      }
-    },
-    "9|10|elite": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "14 Statistics": 10,
-        "15 Introduction to Probability": 10,
-        "6 Coordinate Geometry": 10,
-        "13 Earth as a System: Energy, Matter and Life": 30
-      }
-    },
-    "9|10|challenge": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Science": 30
-      },
-      "chapters": {
-        "14 Statistics": 10,
-        "15 Introduction to Probability": 10,
-        "6 Coordinate Geometry": 10,
-        "13 Earth as a System: Energy, Matter and Life": 30
-      }
-    },
-    "10|1|foundation": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Physics": 15,
-        "Chemistry": 15
-      },
-      "chapters": {
-        "01 Real Numbers": 30,
-        "Light – Reflection and Refraction": 15,
-        "01 Chemical Reactions and Equations": 15
-      }
-    },
-    "10|1|logical": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Physics": 15,
-        "Chemistry": 15
-      },
-      "chapters": {
-        "01 Real Numbers": 30,
-        "Light – Reflection and Refraction": 15,
-        "01 Chemical Reactions and Equations": 15
-      }
-    },
-    "10|1|elite": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Physics": 15,
-        "Chemistry": 15
-      },
-      "chapters": {
-        "01 Real Numbers": 30,
-        "Light – Reflection and Refraction": 15,
-        "01 Chemical Reactions and Equations": 15
-      }
-    },
-    "10|1|challenge": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Physics": 15,
-        "Chemistry": 15
-      },
-      "chapters": {
-        "01 Real Numbers": 30,
-        "Light – Reflection and Refraction": 15,
-        "01 Chemical Reactions and Equations": 15
-      }
-    },
-    "10|2|foundation": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Physics": 15,
-        "Chemistry": 15
-      },
-      "chapters": {
-        "02 Polynomials": 30,
-        "The Human Eye and the Colourful World": 15,
-        "02 Acids, Bases and Salts": 8,
-        "03 Metals and Non-metals": 7
-      }
-    },
-    "10|2|logical": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Physics": 15,
-        "Chemistry": 15
-      },
-      "chapters": {
-        "02 Polynomials": 30,
-        "The Human Eye and the Colourful World": 15,
-        "02 Acids, Bases and Salts": 8,
-        "03 Metals and Non-metals": 7
-      }
-    },
-    "10|2|elite": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Physics": 15,
-        "Chemistry": 15
-      },
-      "chapters": {
-        "02 Polynomials": 30,
-        "The Human Eye and the Colourful World": 15,
-        "02 Acids, Bases and Salts": 8,
-        "03 Metals and Non-metals": 7
-      }
-    },
-    "10|2|challenge": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Physics": 15,
-        "Chemistry": 15
-      },
-      "chapters": {
-        "02 Polynomials": 30,
-        "The Human Eye and the Colourful World": 15,
-        "02 Acids, Bases and Salts": 8,
-        "03 Metals and Non-metals": 7
-      }
-    },
-    "10|3|foundation": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Physics": 15,
-        "Chemistry": 15
-      },
-      "chapters": {
-        "03 Pair of Linear Equations in Two Variables": 30,
-        "Electricity": 15,
-        "04 Carbon and its Compounds": 15
-      }
-    },
-    "10|3|logical": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Physics": 15,
-        "Chemistry": 15
-      },
-      "chapters": {
-        "03 Pair of Linear Equations in Two Variables": 30,
-        "Electricity": 15,
-        "04 Carbon and its Compounds": 15
-      }
-    },
-    "10|3|elite": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Physics": 15,
-        "Chemistry": 15
-      },
-      "chapters": {
-        "03 Pair of Linear Equations in Two Variables": 30,
-        "Electricity": 15,
-        "04 Carbon and its Compounds": 15
-      }
-    },
-    "10|3|challenge": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Physics": 15,
-        "Chemistry": 15
-      },
-      "chapters": {
-        "03 Pair of Linear Equations in Two Variables": 30,
-        "Electricity": 15,
-        "04 Carbon and its Compounds": 15
-      }
-    },
-    "10|4|foundation": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Physics": 15,
-        "Chemistry": 15
-      },
-      "chapters": {
-        "04 Quadratic Equations": 15,
-        "05 Arithmetic Progressions": 15,
-        "Magnetic Effects of Electric Current": 15,
-        "Carbon and its Compounds": 15
-      }
-    },
-    "10|4|logical": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Physics": 15,
-        "Chemistry": 15
-      },
-      "chapters": {
-        "04 Quadratic Equations": 15,
-        "05 Arithmetic Progressions": 15,
-        "Magnetic Effects of Electric Current": 15,
-        "Carbon and its Compounds": 15
-      }
-    },
-    "10|4|elite": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Physics": 15,
-        "Chemistry": 15
-      },
-      "chapters": {
-        "04 Quadratic Equations": 15,
-        "05 Arithmetic Progressions": 15,
-        "Magnetic Effects of Electric Current": 15,
-        "Carbon and its Compounds": 15
-      }
-    },
-    "10|4|challenge": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Physics": 15,
-        "Chemistry": 15
-      },
-      "chapters": {
-        "04 Quadratic Equations": 15,
-        "05 Arithmetic Progressions": 15,
-        "Magnetic Effects of Electric Current": 15,
-        "Carbon and its Compounds": 15
-      }
-    },
-    "10|5|foundation": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Physics": 15,
-        "Chemistry": 15
-      },
-      "chapters": {
-        "06 Triangles": 15,
-        "10 Circles": 15,
-        "Light – Reflection and Refraction": 15,
-        "Chemical Reactions and Equations": 15
-      }
-    },
-    "10|5|logical": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Physics": 15,
-        "Chemistry": 15
-      },
-      "chapters": {
-        "06 Triangles": 15,
-        "10 Circles": 15,
-        "Light – Reflection and Refraction": 15,
-        "Chemical Reactions and Equations": 15
-      }
-    },
-    "10|5|elite": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Physics": 15,
-        "Chemistry": 15
-      },
-      "chapters": {
-        "06 Triangles": 15,
-        "10 Circles": 15,
-        "Light – Reflection and Refraction": 15,
-        "Chemical Reactions and Equations": 15
-      }
-    },
-    "10|5|challenge": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Physics": 15,
-        "Chemistry": 15
-      },
-      "chapters": {
-        "06 Triangles": 15,
-        "10 Circles": 15,
-        "Light – Reflection and Refraction": 15,
-        "Chemical Reactions and Equations": 15
-      }
-    },
-    "10|6|foundation": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Physics": 15,
-        "Chemistry": 15
-      },
-      "chapters": {
-        "11 Areas Related to Circles": 15,
-        "12 Surface Areas and Volumes": 15,
-        "11 Electricity": 15,
-        "Acids, Bases and Salts": 15
-      }
-    },
-    "10|6|logical": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Physics": 15,
-        "Chemistry": 15
-      },
-      "chapters": {
-        "11 Areas Related to Circles": 15,
-        "12 Surface Areas and Volumes": 15,
-        "11 Electricity": 15,
-        "Acids, Bases and Salts": 15
-      }
-    },
-    "10|6|elite": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Physics": 15,
-        "Chemistry": 15
-      },
-      "chapters": {
-        "11 Areas Related to Circles": 15,
-        "12 Surface Areas and Volumes": 15,
-        "11 Electricity": 15,
-        "Acids, Bases and Salts": 15
-      }
-    },
-    "10|6|challenge": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Physics": 15,
-        "Chemistry": 15
-      },
-      "chapters": {
-        "11 Areas Related to Circles": 15,
-        "12 Surface Areas and Volumes": 15,
-        "11 Electricity": 15,
-        "Acids, Bases and Salts": 15
-      }
-    },
-    "10|7|foundation": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Physics": 15,
-        "Chemistry": 15
-      },
-      "chapters": {
-        "06 Triangles": 10,
-        "07 Coordinate Geometry": 10,
-        "10 Circles": 10,
-        "12 Magnetic Effects of Electric Current": 8,
-        "09 Light – Reflection and Refraction": 7,
-        "Metals and Non-metals": 15
-      }
-    },
-    "10|7|logical": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Physics": 15,
-        "Chemistry": 15
-      },
-      "chapters": {
-        "06 Triangles": 10,
-        "07 Coordinate Geometry": 10,
-        "10 Circles": 10,
-        "12 Magnetic Effects of Electric Current": 8,
-        "09 Light – Reflection and Refraction": 7,
-        "Metals and Non-metals": 15
-      }
-    },
-    "10|7|elite": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Physics": 15,
-        "Chemistry": 15
-      },
-      "chapters": {
-        "06 Triangles": 10,
-        "07 Coordinate Geometry": 10,
-        "10 Circles": 10,
-        "12 Magnetic Effects of Electric Current": 8,
-        "09 Light – Reflection and Refraction": 7,
-        "Metals and Non-metals": 15
-      }
-    },
-    "10|7|challenge": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Physics": 15,
-        "Chemistry": 15
-      },
-      "chapters": {
-        "06 Triangles": 10,
-        "07 Coordinate Geometry": 10,
-        "10 Circles": 10,
-        "12 Magnetic Effects of Electric Current": 8,
-        "09 Light – Reflection and Refraction": 7,
-        "Metals and Non-metals": 15
-      }
-    },
-    "10|8|foundation": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Physics": 15,
-        "Chemistry": 15
-      },
-      "chapters": {
-        "11 Areas Related to Circles": 15,
-        "12 Surface Areas and Volumes": 15,
-        "Magnetic Effects of Electric Current": 15,
-        "Carbon and its Compounds": 15
-      }
-    },
-    "10|8|logical": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Physics": 15,
-        "Chemistry": 15
-      },
-      "chapters": {
-        "11 Areas Related to Circles": 15,
-        "12 Surface Areas and Volumes": 15,
-        "Magnetic Effects of Electric Current": 15,
-        "Carbon and its Compounds": 15
-      }
-    },
-    "10|8|elite": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Physics": 15,
-        "Chemistry": 15
-      },
-      "chapters": {
-        "11 Areas Related to Circles": 15,
-        "12 Surface Areas and Volumes": 15,
-        "Magnetic Effects of Electric Current": 15,
-        "Carbon and its Compounds": 15
-      }
-    },
-    "10|8|challenge": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Physics": 15,
-        "Chemistry": 15
-      },
-      "chapters": {
-        "11 Areas Related to Circles": 15,
-        "12 Surface Areas and Volumes": 15,
-        "Magnetic Effects of Electric Current": 15,
-        "Carbon and its Compounds": 15
-      }
-    },
-    "10|9|foundation": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Physics": 15,
-        "Chemistry": 15
-      },
-      "chapters": {
-        "07 Coordinate Geometry": 10,
-        "03 Pair of Linear Equations in Two Variables": 10,
-        "04 Quadratic Equations": 10,
-        "Light – Reflection and Refraction": 15,
-        "04 Carbon and its Compounds": 15
-      }
-    },
-    "10|9|logical": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Physics": 15,
-        "Chemistry": 15
-      },
-      "chapters": {
-        "07 Coordinate Geometry": 10,
-        "03 Pair of Linear Equations in Two Variables": 10,
-        "04 Quadratic Equations": 10,
-        "Light – Reflection and Refraction": 15,
-        "04 Carbon and its Compounds": 15
-      }
-    },
-    "10|9|elite": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Physics": 15,
-        "Chemistry": 15
-      },
-      "chapters": {
-        "07 Coordinate Geometry": 10,
-        "03 Pair of Linear Equations in Two Variables": 10,
-        "04 Quadratic Equations": 10,
-        "Light – Reflection and Refraction": 15,
-        "04 Carbon and its Compounds": 15
-      }
-    },
-    "10|9|challenge": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Physics": 15,
-        "Chemistry": 15
-      },
-      "chapters": {
-        "07 Coordinate Geometry": 10,
-        "03 Pair of Linear Equations in Two Variables": 10,
-        "04 Quadratic Equations": 10,
-        "Light – Reflection and Refraction": 15,
-        "04 Carbon and its Compounds": 15
-      }
-    },
-    "10|10|foundation": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Physics": 15,
-        "Chemistry": 15
-      },
-      "chapters": {
-        "08 Introduction to Trigonometry": 8,
-        "09 Some Applications of Trigonometry": 8,
-        "13 Statistics": 7,
-        "14 Probability": 7,
-        "09 Light – Reflection and Refraction": 4,
-        "10 The Human Eye and the Colourful World": 4,
-        "11 Electricity": 4,
-        "12 Magnetic Effects of Electric Current": 3,
-        "01 Chemical Reactions and Equations": 15
-      }
-    },
-    "10|10|logical": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Physics": 15,
-        "Chemistry": 15
-      },
-      "chapters": {
-        "08 Introduction to Trigonometry": 8,
-        "09 Some Applications of Trigonometry": 8,
-        "13 Statistics": 7,
-        "14 Probability": 7,
-        "09 Light – Reflection and Refraction": 4,
-        "10 The Human Eye and the Colourful World": 4,
-        "11 Electricity": 4,
-        "12 Magnetic Effects of Electric Current": 3,
-        "01 Chemical Reactions and Equations": 15
-      }
-    },
-    "10|10|elite": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Physics": 15,
-        "Chemistry": 15
-      },
-      "chapters": {
-        "08 Introduction to Trigonometry": 8,
-        "09 Some Applications of Trigonometry": 8,
-        "13 Statistics": 7,
-        "14 Probability": 7,
-        "09 Light – Reflection and Refraction": 4,
-        "10 The Human Eye and the Colourful World": 4,
-        "11 Electricity": 4,
-        "12 Magnetic Effects of Electric Current": 3,
-        "01 Chemical Reactions and Equations": 15
-      }
-    },
-    "10|10|challenge": {
-      "count": 60,
-      "subjects": {
-        "Mathematics": 30,
-        "Physics": 15,
-        "Chemistry": 15
-      },
-      "chapters": {
-        "08 Introduction to Trigonometry": 8,
-        "09 Some Applications of Trigonometry": 8,
-        "13 Statistics": 7,
-        "14 Probability": 7,
-        "09 Light – Reflection and Refraction": 4,
-        "10 The Human Eye and the Colourful World": 4,
-        "11 Electricity": 4,
-        "12 Magnetic Effects of Electric Current": 3,
-        "01 Chemical Reactions and Equations": 15
-      }
+    "C6-L1-foundation": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C6-L1-logical": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C6-L1-elite": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C6-L1-challenge": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C6-L2-foundation": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C6-L2-logical": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C6-L2-elite": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C6-L2-challenge": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C6-L3-foundation": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C6-L3-logical": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C6-L3-elite": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C6-L3-challenge": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C6-L4-foundation": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C6-L4-logical": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C6-L4-elite": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C6-L4-challenge": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C6-L5-foundation": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C6-L5-logical": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C6-L5-elite": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C6-L5-challenge": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C6-L6-foundation": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C6-L6-logical": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C6-L6-elite": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C6-L6-challenge": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C6-L7-foundation": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C6-L7-logical": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C6-L7-elite": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C6-L7-challenge": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C6-L8-foundation": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C6-L8-logical": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C6-L8-elite": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C6-L8-challenge": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C6-L9-foundation": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C6-L9-logical": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C6-L9-elite": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C6-L9-challenge": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C6-L10-foundation": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C6-L10-logical": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C6-L10-elite": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C6-L10-challenge": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C7-L1-foundation": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C7-L1-logical": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C7-L1-elite": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C7-L1-challenge": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C7-L2-foundation": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C7-L2-logical": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C7-L2-elite": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C7-L2-challenge": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C7-L3-foundation": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C7-L3-logical": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C7-L3-elite": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C7-L3-challenge": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C7-L4-foundation": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C7-L4-logical": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C7-L4-elite": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C7-L4-challenge": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C7-L5-foundation": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C7-L5-logical": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C7-L5-elite": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C7-L5-challenge": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C7-L6-foundation": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C7-L6-logical": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C7-L6-elite": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C7-L6-challenge": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C7-L7-foundation": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C7-L7-logical": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C7-L7-elite": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C7-L7-challenge": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C7-L8-foundation": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C7-L8-logical": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C7-L8-elite": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C7-L8-challenge": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C7-L9-foundation": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C7-L9-logical": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C7-L9-elite": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C7-L9-challenge": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C7-L10-foundation": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C7-L10-logical": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C7-L10-elite": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C7-L10-challenge": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C8-L1-foundation": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C8-L1-logical": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C8-L1-elite": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C8-L1-challenge": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C8-L2-foundation": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C8-L2-logical": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C8-L2-elite": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C8-L2-challenge": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C8-L3-foundation": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C8-L3-logical": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C8-L3-elite": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C8-L3-challenge": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C8-L4-foundation": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C8-L4-logical": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C8-L4-elite": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C8-L4-challenge": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C8-L5-foundation": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C8-L5-logical": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C8-L5-elite": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C8-L5-challenge": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C8-L6-foundation": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C8-L6-logical": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C8-L6-elite": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C8-L6-challenge": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C8-L7-foundation": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C8-L7-logical": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C8-L7-elite": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C8-L7-challenge": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C8-L8-foundation": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C8-L8-logical": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C8-L8-elite": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C8-L8-challenge": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C8-L9-foundation": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C8-L9-logical": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C8-L9-elite": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C8-L9-challenge": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C8-L10-foundation": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C8-L10-logical": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C8-L10-elite": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C8-L10-challenge": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C9-L1-foundation": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C9-L1-logical": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C9-L1-elite": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C9-L1-challenge": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C9-L2-foundation": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C9-L2-logical": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C9-L2-elite": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C9-L2-challenge": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C9-L3-foundation": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C9-L3-logical": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C9-L3-elite": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C9-L3-challenge": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C9-L4-foundation": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C9-L4-logical": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C9-L4-elite": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C9-L4-challenge": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C9-L5-foundation": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C9-L5-logical": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C9-L5-elite": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C9-L5-challenge": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C9-L6-foundation": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C9-L6-logical": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C9-L6-elite": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C9-L6-challenge": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C9-L7-foundation": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C9-L7-logical": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C9-L7-elite": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C9-L7-challenge": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C9-L8-foundation": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C9-L8-logical": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C9-L8-elite": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C9-L8-challenge": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C9-L9-foundation": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C9-L9-logical": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C9-L9-elite": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C9-L9-challenge": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C9-L10-foundation": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C9-L10-logical": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C9-L10-elite": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C9-L10-challenge": {
+      "Mathematics": 30,
+      "Science": 30
+    },
+    "C10-L1-foundation": {
+      "Mathematics": 30,
+      "Physics": 15,
+      "Chemistry": 15
+    },
+    "C10-L1-logical": {
+      "Mathematics": 30,
+      "Physics": 15,
+      "Chemistry": 15
+    },
+    "C10-L1-elite": {
+      "Mathematics": 30,
+      "Physics": 15,
+      "Chemistry": 15
+    },
+    "C10-L1-challenge": {
+      "Mathematics": 30,
+      "Physics": 15,
+      "Chemistry": 15
+    },
+    "C10-L2-foundation": {
+      "Mathematics": 30,
+      "Physics": 15,
+      "Chemistry": 15
+    },
+    "C10-L2-logical": {
+      "Mathematics": 30,
+      "Physics": 15,
+      "Chemistry": 15
+    },
+    "C10-L2-elite": {
+      "Mathematics": 30,
+      "Physics": 15,
+      "Chemistry": 15
+    },
+    "C10-L2-challenge": {
+      "Mathematics": 30,
+      "Physics": 15,
+      "Chemistry": 15
+    },
+    "C10-L3-foundation": {
+      "Mathematics": 30,
+      "Physics": 15,
+      "Chemistry": 15
+    },
+    "C10-L3-logical": {
+      "Mathematics": 30,
+      "Physics": 15,
+      "Chemistry": 15
+    },
+    "C10-L3-elite": {
+      "Mathematics": 30,
+      "Physics": 15,
+      "Chemistry": 15
+    },
+    "C10-L3-challenge": {
+      "Mathematics": 30,
+      "Physics": 15,
+      "Chemistry": 15
+    },
+    "C10-L4-foundation": {
+      "Mathematics": 30,
+      "Physics": 15,
+      "Chemistry": 15
+    },
+    "C10-L4-logical": {
+      "Mathematics": 30,
+      "Physics": 15,
+      "Chemistry": 15
+    },
+    "C10-L4-elite": {
+      "Mathematics": 30,
+      "Physics": 15,
+      "Chemistry": 15
+    },
+    "C10-L4-challenge": {
+      "Mathematics": 30,
+      "Physics": 15,
+      "Chemistry": 15
+    },
+    "C10-L5-foundation": {
+      "Mathematics": 30,
+      "Physics": 15,
+      "Chemistry": 15
+    },
+    "C10-L5-logical": {
+      "Mathematics": 30,
+      "Physics": 15,
+      "Chemistry": 15
+    },
+    "C10-L5-elite": {
+      "Mathematics": 30,
+      "Physics": 15,
+      "Chemistry": 15
+    },
+    "C10-L5-challenge": {
+      "Mathematics": 30,
+      "Physics": 15,
+      "Chemistry": 15
+    },
+    "C10-L6-foundation": {
+      "Mathematics": 30,
+      "Physics": 15,
+      "Chemistry": 15
+    },
+    "C10-L6-logical": {
+      "Mathematics": 30,
+      "Physics": 15,
+      "Chemistry": 15
+    },
+    "C10-L6-elite": {
+      "Mathematics": 30,
+      "Physics": 15,
+      "Chemistry": 15
+    },
+    "C10-L6-challenge": {
+      "Mathematics": 30,
+      "Physics": 15,
+      "Chemistry": 15
+    },
+    "C10-L7-foundation": {
+      "Mathematics": 30,
+      "Physics": 15,
+      "Chemistry": 15
+    },
+    "C10-L7-logical": {
+      "Mathematics": 30,
+      "Physics": 15,
+      "Chemistry": 15
+    },
+    "C10-L7-elite": {
+      "Mathematics": 30,
+      "Physics": 15,
+      "Chemistry": 15
+    },
+    "C10-L7-challenge": {
+      "Mathematics": 30,
+      "Physics": 15,
+      "Chemistry": 15
+    },
+    "C10-L8-foundation": {
+      "Mathematics": 30,
+      "Physics": 15,
+      "Chemistry": 15
+    },
+    "C10-L8-logical": {
+      "Mathematics": 30,
+      "Physics": 15,
+      "Chemistry": 15
+    },
+    "C10-L8-elite": {
+      "Mathematics": 30,
+      "Physics": 15,
+      "Chemistry": 15
+    },
+    "C10-L8-challenge": {
+      "Mathematics": 30,
+      "Physics": 15,
+      "Chemistry": 15
+    },
+    "C10-L9-foundation": {
+      "Mathematics": 30,
+      "Physics": 15,
+      "Chemistry": 15
+    },
+    "C10-L9-logical": {
+      "Mathematics": 30,
+      "Physics": 15,
+      "Chemistry": 15
+    },
+    "C10-L9-elite": {
+      "Mathematics": 30,
+      "Physics": 15,
+      "Chemistry": 15
+    },
+    "C10-L9-challenge": {
+      "Mathematics": 30,
+      "Physics": 15,
+      "Chemistry": 15
+    },
+    "C10-L10-foundation": {
+      "Mathematics": 30,
+      "Physics": 15,
+      "Chemistry": 15
+    },
+    "C10-L10-logical": {
+      "Mathematics": 30,
+      "Physics": 15,
+      "Chemistry": 15
+    },
+    "C10-L10-elite": {
+      "Mathematics": 30,
+      "Physics": 15,
+      "Chemistry": 15
+    },
+    "C10-L10-challenge": {
+      "Mathematics": 30,
+      "Physics": 15,
+      "Chemistry": 15
     }
   },
-  "duplicates": 0,
-  "invalid_answer_keys": 0,
-  "wrong_subject_balance": 0,
-  "missing_chapter": 0,
-  "total_questions": 12000,
-  "pools_with_60_questions": 200,
-  "status": "PASS",
-  "notes": [
-    "Original question text generated from controlled academic templates; not copied from CBSE/NCERT/ICSE/IGCSE/IB papers.",
-    "Elite and Master Challenge keep CBSE syllabus/content as the base; international-style exposure is limited to presentation/reasoning style.",
-    "Class 10 online-test balance is 30 Mathematics + 15 Physics + 15 Chemistry per pool, matching the 20-question attempt ratio of 10/5/5.",
-    "This QA report checks structural integrity, exact duplicate fingerprints, answer-key membership and subject distribution; academic teacher review is still recommended before public release."
-  ]
+  "pool_count": 200,
+  "pool_sizes": {
+    "C6-L1-foundation": 60,
+    "C6-L1-logical": 60,
+    "C6-L1-elite": 60,
+    "C6-L1-challenge": 60,
+    "C6-L2-foundation": 60,
+    "C6-L2-logical": 60,
+    "C6-L2-elite": 60,
+    "C6-L2-challenge": 60,
+    "C6-L3-foundation": 60,
+    "C6-L3-logical": 60,
+    "C6-L3-elite": 60,
+    "C6-L3-challenge": 60,
+    "C6-L4-foundation": 60,
+    "C6-L4-logical": 60,
+    "C6-L4-elite": 60,
+    "C6-L4-challenge": 60,
+    "C6-L5-foundation": 60,
+    "C6-L5-logical": 60,
+    "C6-L5-elite": 60,
+    "C6-L5-challenge": 60,
+    "C6-L6-foundation": 60,
+    "C6-L6-logical": 60,
+    "C6-L6-elite": 60,
+    "C6-L6-challenge": 60,
+    "C6-L7-foundation": 60,
+    "C6-L7-logical": 60,
+    "C6-L7-elite": 60,
+    "C6-L7-challenge": 60,
+    "C6-L8-foundation": 60,
+    "C6-L8-logical": 60,
+    "C6-L8-elite": 60,
+    "C6-L8-challenge": 60,
+    "C6-L9-foundation": 60,
+    "C6-L9-logical": 60,
+    "C6-L9-elite": 60,
+    "C6-L9-challenge": 60,
+    "C6-L10-foundation": 60,
+    "C6-L10-logical": 60,
+    "C6-L10-elite": 60,
+    "C6-L10-challenge": 60,
+    "C7-L1-foundation": 60,
+    "C7-L1-logical": 60,
+    "C7-L1-elite": 60,
+    "C7-L1-challenge": 60,
+    "C7-L2-foundation": 60,
+    "C7-L2-logical": 60,
+    "C7-L2-elite": 60,
+    "C7-L2-challenge": 60,
+    "C7-L3-foundation": 60,
+    "C7-L3-logical": 60,
+    "C7-L3-elite": 60,
+    "C7-L3-challenge": 60,
+    "C7-L4-foundation": 60,
+    "C7-L4-logical": 60,
+    "C7-L4-elite": 60,
+    "C7-L4-challenge": 60,
+    "C7-L5-foundation": 60,
+    "C7-L5-logical": 60,
+    "C7-L5-elite": 60,
+    "C7-L5-challenge": 60,
+    "C7-L6-foundation": 60,
+    "C7-L6-logical": 60,
+    "C7-L6-elite": 60,
+    "C7-L6-challenge": 60,
+    "C7-L7-foundation": 60,
+    "C7-L7-logical": 60,
+    "C7-L7-elite": 60,
+    "C7-L7-challenge": 60,
+    "C7-L8-foundation": 60,
+    "C7-L8-logical": 60,
+    "C7-L8-elite": 60,
+    "C7-L8-challenge": 60,
+    "C7-L9-foundation": 60,
+    "C7-L9-logical": 60,
+    "C7-L9-elite": 60,
+    "C7-L9-challenge": 60,
+    "C7-L10-foundation": 60,
+    "C7-L10-logical": 60,
+    "C7-L10-elite": 60,
+    "C7-L10-challenge": 60,
+    "C8-L1-foundation": 60,
+    "C8-L1-logical": 60,
+    "C8-L1-elite": 60,
+    "C8-L1-challenge": 60,
+    "C8-L2-foundation": 60,
+    "C8-L2-logical": 60,
+    "C8-L2-elite": 60,
+    "C8-L2-challenge": 60,
+    "C8-L3-foundation": 60,
+    "C8-L3-logical": 60,
+    "C8-L3-elite": 60,
+    "C8-L3-challenge": 60,
+    "C8-L4-foundation": 60,
+    "C8-L4-logical": 60,
+    "C8-L4-elite": 60,
+    "C8-L4-challenge": 60,
+    "C8-L5-foundation": 60,
+    "C8-L5-logical": 60,
+    "C8-L5-elite": 60,
+    "C8-L5-challenge": 60,
+    "C8-L6-foundation": 60,
+    "C8-L6-logical": 60,
+    "C8-L6-elite": 60,
+    "C8-L6-challenge": 60,
+    "C8-L7-foundation": 60,
+    "C8-L7-logical": 60,
+    "C8-L7-elite": 60,
+    "C8-L7-challenge": 60,
+    "C8-L8-foundation": 60,
+    "C8-L8-logical": 60,
+    "C8-L8-elite": 60,
+    "C8-L8-challenge": 60,
+    "C8-L9-foundation": 60,
+    "C8-L9-logical": 60,
+    "C8-L9-elite": 60,
+    "C8-L9-challenge": 60,
+    "C8-L10-foundation": 60,
+    "C8-L10-logical": 60,
+    "C8-L10-elite": 60,
+    "C8-L10-challenge": 60,
+    "C9-L1-foundation": 60,
+    "C9-L1-logical": 60,
+    "C9-L1-elite": 60,
+    "C9-L1-challenge": 60,
+    "C9-L2-foundation": 60,
+    "C9-L2-logical": 60,
+    "C9-L2-elite": 60,
+    "C9-L2-challenge": 60,
+    "C9-L3-foundation": 60,
+    "C9-L3-logical": 60,
+    "C9-L3-elite": 60,
+    "C9-L3-challenge": 60,
+    "C9-L4-foundation": 60,
+    "C9-L4-logical": 60,
+    "C9-L4-elite": 60,
+    "C9-L4-challenge": 60,
+    "C9-L5-foundation": 60,
+    "C9-L5-logical": 60,
+    "C9-L5-elite": 60,
+    "C9-L5-challenge": 60,
+    "C9-L6-foundation": 60,
+    "C9-L6-logical": 60,
+    "C9-L6-elite": 60,
+    "C9-L6-challenge": 60,
+    "C9-L7-foundation": 60,
+    "C9-L7-logical": 60,
+    "C9-L7-elite": 60,
+    "C9-L7-challenge": 60,
+    "C9-L8-foundation": 60,
+    "C9-L8-logical": 60,
+    "C9-L8-elite": 60,
+    "C9-L8-challenge": 60,
+    "C9-L9-foundation": 60,
+    "C9-L9-logical": 60,
+    "C9-L9-elite": 60,
+    "C9-L9-challenge": 60,
+    "C9-L10-foundation": 60,
+    "C9-L10-logical": 60,
+    "C9-L10-elite": 60,
+    "C9-L10-challenge": 60,
+    "C10-L1-foundation": 60,
+    "C10-L1-logical": 60,
+    "C10-L1-elite": 60,
+    "C10-L1-challenge": 60,
+    "C10-L2-foundation": 60,
+    "C10-L2-logical": 60,
+    "C10-L2-elite": 60,
+    "C10-L2-challenge": 60,
+    "C10-L3-foundation": 60,
+    "C10-L3-logical": 60,
+    "C10-L3-elite": 60,
+    "C10-L3-challenge": 60,
+    "C10-L4-foundation": 60,
+    "C10-L4-logical": 60,
+    "C10-L4-elite": 60,
+    "C10-L4-challenge": 60,
+    "C10-L5-foundation": 60,
+    "C10-L5-logical": 60,
+    "C10-L5-elite": 60,
+    "C10-L5-challenge": 60,
+    "C10-L6-foundation": 60,
+    "C10-L6-logical": 60,
+    "C10-L6-elite": 60,
+    "C10-L6-challenge": 60,
+    "C10-L7-foundation": 60,
+    "C10-L7-logical": 60,
+    "C10-L7-elite": 60,
+    "C10-L7-challenge": 60,
+    "C10-L8-foundation": 60,
+    "C10-L8-logical": 60,
+    "C10-L8-elite": 60,
+    "C10-L8-challenge": 60,
+    "C10-L9-foundation": 60,
+    "C10-L9-logical": 60,
+    "C10-L9-elite": 60,
+    "C10-L9-challenge": 60,
+    "C10-L10-foundation": 60,
+    "C10-L10-logical": 60,
+    "C10-L10-elite": 60,
+    "C10-L10-challenge": 60
+  },
+  "subject_errors": {},
+  "duplicate_question_text_groups": 517,
+  "duplicate_question_text_instances": 1902
 }
